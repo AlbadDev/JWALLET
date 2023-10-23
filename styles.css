@@ -93,7 +93,12 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: -20px;
+ // border: 1px solid red;
 }
+/* .sold {
+  margin-top: -20px;
+} */
 .soldeTitle {
   color: #1f58df;
   /* //margin-bottom: -10px; */
