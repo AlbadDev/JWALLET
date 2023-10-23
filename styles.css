@@ -15,7 +15,7 @@ body {
 .container {
   align-items: center;
   color: #000;
-  border: 5px solid #000;
+  border: 5px solid #1f58df;
   border-radius: 5px;
   background-color: none;
   width: 380px;
@@ -81,7 +81,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 150px;
-  height: 200px;
+  height: 180px;
   /* border: 1px solid #000; #2a85e5*/
   background-color: #fff;
   padding: 10px;
@@ -129,7 +129,7 @@ a {
   align-items: center;
   border-radius: 5px;
   width: 150px;
-  height: 200px;
+  height: 180px;
   padding: 10px;
   /* border: 1px solid #000; */
   background-color: #3632bf;
