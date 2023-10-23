@@ -282,7 +282,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(128, 128, 128, 0.421);
+  border: 1px solid rgba(128, 128, 128, 0.147);
   border-radius: 20px;
   width: 55px;
   height: 50px;
