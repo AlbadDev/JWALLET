@@ -1,0 +1,457 @@
+
+.body {
+  background-color: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: none;
+  
+  margin: 50px auto;
+  background-color: #f2f3f5;
+}
+.container {
+  align-items: center;
+  color: #000;
+  border: 5px solid #000;
+  border-radius: 5px;
+  background-color: none;
+  width: 380px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  /* border-bottom: 1px solid #000; */
+}
+.linkIcon {
+  color: aliceblue;
+}
+.profileImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #1f58df;
+  border-radius: 20px;
+  color: aliceblue;
+}
+/* .navLink {
+  
+} */
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: -10px;
+
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: NONE;
+  margin-right: 10px;
+  /* //border: 1px solid #000; */
+  /* background-color: #fff; */
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.soldContainer {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 200px;
+  /* border: 1px solid #000; #2a85e5*/
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 4px solid #3632bf;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.soldeTitle {
+  color: #1f58df;
+  /* //margin-bottom: -10px; */
+ 
+}
+.fa-eye {
+
+  color: rgb(30, 48, 80);
+}
+.solodNumber {
+  color:#f99f1b;
+  font-weight: 600;
+
+}
+.miseAjour {
+ font-size: 12px;
+ color: #2a85e5;
+ margin-top: -5px;
+}
+.cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.fa-credit-card {
+  margin-top: 10px;
+  color: rgb(30, 48, 80);
+}
+.qrcodeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+  /* border: 1px solid #000; */
+  background-color: #3632bf;
+  overflow: hidden;
+}
+.codeImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.scanText {
+  font-size: 12px;
+  margin-bottom: -10px;
+  color: #f2f3f5;
+}
+
+.secondNavContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  /* border: 1px solid gray; */
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 50px; */
+  /* border: 1px solid gray; */
+  height: 100%;
+  width: 100%;
+  padding-left:0;
+
+}
+
+.listIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 80px;
+  height: 100%;
+  /* border: 1px solid gray; */
+  /* margin: 0px 5px;*/
+} 
+
+.fa-address-card {
+  color: #f99f1b;
+}
+.fa-money {
+  color: #2a85e5;
+}
+.fa-history {
+  color:rgb(30, 48, 80) ;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: #277ae4;
+  color: #fff;
+  margin: 20px auto;
+}
+
+.lastBill {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.headerbill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.177);
+  margin-bottom: 10px;
+}
+.billInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.recieverContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.receiverName {
+  /* margin-bottom: -10px; */
+  font-weight: 600;
+}
+.moneyDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+/* .sendAmount {
+  margin-bottom: -10px;
+} */
+.money {
+  color: #f99f1b;
+}
+.dateTransfert {
+  font-size: 14px;
+  color: #277ae4;
+}
+
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-user-circle-o {
+  color: #1f58df;
+}
+.fa-arrow-right {
+  font-size: 14px;
+  
+}
+.fa-money {
+  color: #1f961c;
+}
+.iconForTransfert {
+  margin-right: 2px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.421);
+  border-radius: 20px;
+  width: 55px;
+  height: 50px;
+  gap: 2px;
+}
+.textHeadBill {
+  font-weight: 600;
+}
+.seePlus {
+  color: #f99f1b;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+}
+.footerLink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footerItem {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 90%;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  list-style: none;
+  margin-left: -40px;
+  padding: 0px 5px;
+  
+}
+.fa-home {
+  color: #f99f1b;
+}
+.iconMoney {
+  color: #000;
+}
+
+/* ................................................................. */
+/* ................................................................. */
+          /* TRANSFERT COMPONENT STAYLE START HERE */
+/* ................................................................. */
+/* ................................................................. */
+
+.transfertContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 20px;
+}
+.input-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.input-group-label {
+  padding: 10px;
+  width: 200px;
+  background-color: #7d797914;
+}
+.form-control {
+  width: 120px;
+  height: 35px;
+  border: none;
+  text-align: center;
+}
+.sendCodeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.fraiContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fraiMontant {
+  font-weight: 600;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.btnContainer{
+  width: 100%;
+  height: 50px;
+ 
+}
+
+.validBtn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #f2f3f5;
+  font-weight: 600;
+  background-color: #f99f1b;
+  cursor: pointer;
+}
