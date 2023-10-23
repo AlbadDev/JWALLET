@@ -229,7 +229,7 @@ a {
 
   height: 30px;
   padding-left: 10px;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 .receiverName {
   /* margin-bottom: -10px; */
@@ -244,9 +244,9 @@ a {
   padding-left: 10px;
   padding-top: 15px;
 }
-/* .sendAmount {
+.sendAmount {
   margin-bottom: -10px;
-} */
+}
 .money {
   color: #f99f1b;
 }
@@ -455,4 +455,25 @@ input:checked + .slider:before {
   font-weight: 600;
   background-color: #f99f1b;
   cursor: pointer;
+}
+
+
+.fa-arrow-right {
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(-45deg);
+
+  color: #1f58df;
+}
+
+.fa-arrow-left {
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(-45deg);
+
+  color: #1f58df;
 }
