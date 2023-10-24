@@ -246,6 +246,7 @@ a {
 }
 .receiverName {
   /* margin-bottom: -10px; */
+  cursor: pointer;
   font-weight: 600;
 }
 .moneyDetail {
@@ -309,6 +310,7 @@ a {
   color: #f99f1b;
   text-decoration: underline;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .footerNav {
@@ -320,6 +322,7 @@ a {
   width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  
 }
 .footerLink{
   display: flex;
@@ -327,6 +330,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin: 0px 5px;
 }
 .footerItem {
   display: flex;
@@ -392,11 +396,19 @@ a {
   border-bottom-left-radius: 3px;
 }
 .form-control {
-  width: 140px;
+  width: 165px;
   height: 46px;
   border: 1px solid #cccccc74;
   border-left:none ;
   text-align: center;
+  
+}
+#inputFirst {
+  
+  border-top-right-radius: 3px;
+}
+#inputSecond {
+  border-bottom-right-radius: 3px;
 }
 .sendCodeContainer {
   display: flex;
