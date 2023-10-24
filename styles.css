@@ -32,6 +32,8 @@ a {
   padding: 0px 10px;
   margin-bottom: 10px;
   background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   /* border-bottom: 1px solid #000; */
 }
 .linkIcon {
@@ -76,7 +78,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 .soldContainer {
   display: flex;
@@ -87,7 +89,8 @@ a {
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
-  border-bottom: 4px solid #3632bf;
+  border: none;
+  border-bottom: 5px solid #3632bf;
 }
 .head {
   display: flex;
@@ -160,6 +163,8 @@ a {
   /* border: 1px solid gray; */
   background-color: #fff;
   margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .item {
@@ -205,12 +210,15 @@ a {
   border: 1px solid gray;
   background-color: #277ae4;
   color: #fff;
-  margin: 20px auto;
+  margin-bottom: 20px;
+  /* //margin: 20px auto; */
 }
 
 .lastBill {
   background-color: #fff;
   margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .headerbill {
   display: flex;
@@ -310,6 +318,8 @@ a {
   background-color: #fff;
   height: 80px;
   width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .footerLink{
   display: flex;
@@ -357,7 +367,13 @@ a {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin: 50px 20px;
+  margin: 20px 0px;
+  width: 95%;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+
 }
 .input-group {
   display: flex;
@@ -366,14 +382,20 @@ a {
   width: 100%;
 }
 .input-group-label {
+  display: flex;
+  align-items:center ;
   padding: 10px;
-  width: 200px;
+  width: 180px;
+  height: 30px;
   background-color: #7d797914;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .form-control {
-  width: 120px;
-  height: 35px;
-  border: none;
+  width: 140px;
+  height: 46px;
+  border: 1px solid #cccccc74;
+  border-left:none ;
   text-align: center;
 }
 .sendCodeContainer {
@@ -461,8 +483,10 @@ input:checked + .slider:before {
   height: 100%;
   border: none;
   color: #f2f3f5;
+  font-size: 18px;
   font-weight: 600;
   background-color: #f99f1b;
+  border-radius: 5px;
   cursor: pointer;
 }
 
