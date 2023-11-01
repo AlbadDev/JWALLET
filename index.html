@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jizz Wallet</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -25,7 +25,9 @@
                         <i class="fa fa-search" aria-hidden="true" style="font-size:20px"></i>
                     </li>
                     <li class="navList">
+                       <a href="/codeToPay.html" style="color:inherit">
                         <i class="fa fa-qrcode" aria-hidden="true" style="font-size:20px"></i>
+                       </a>
                     </li>
                     <li class="navList">
                         <i class="fa fa-bell" aria-hidden="true" style="font-size:20px"></i>
@@ -34,38 +36,57 @@
             </div>
         </div>
         <div class="header">
+            <h3 class="myAccount">My Account </h3>
             <div class="soldContainer">
+                
+                <div class="sold" >
+                    <i class="fa fa-credit-card" aria-hidden="true" style="font-size:30px;margin-top: -2px;"></i>
+                    <p class="solodNumber">GMD 1,563 000</p>
+                    <i class="fa fa-eye" aria-hidden="true" "></i>
+                    <!-- <span class="miseAjour">À jour le 11/10/2023 à 00:35</span> -->
+                </div>
                 <div class="head">
-                    <h5 class="soldeTitle">Solde Principal</h5>
+                    <h5 class="soldeTitle">Account Balance</h5>
                     <!-- <i class="fa-regular fa-eye"></i> -->
-                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-eye" aria-hidden="true"></i> -->
                 </div>
-                <div class="sold" style="margin-top: -20px;">
-                    <p class="solodNumber">1 750 000 FCFA</p>
-                    <span class="miseAjour">À jour le 11/10/2023 à 00:35</span>
-                </div>
-                <div class="cardImg">
+                <!-- <div class="cardImg">
                     <i class="fa fa-credit-card" aria-hidden="true" style="font-size:48px"></i>
+                </div> -->
+
+                <div class="secondNavContainer">
+                    <div class="item">
+                        <a href="/transfert.html" class="aLinkHead">
+                                <i class="fa fa-address-card" aria-hidden="true" style="font-size:28px"></i>
+                                <span class="footerLabel">Transfert</span>
+                        </a>
+                        <a href="/history.html" class="aLinkHead">
+                            
+                                <i class="fa fa-history" aria-hidden="true" style="font-size:28px"></i>
+                                <span class="footerLabel">History</span>
+                        </a> 
+                    </div>
+
                 </div>
             </div>
             <div class="qrcodeContainer">
-                <div class="cercle1">
+                <!-- <div class="cercle1">
                     <div class="cercle2">
                         <div class="cercle3"></div>
                     </div>
-                </div>
-                <img src="https://lalumiere.sn/jizzwallet/qrcode/r0NCdtmxYzEEXSogzBkt" style="width:100px;height:100px;"
+                </div> -->
+                <!-- <img src="https://lalumiere.sn/jizzwallet/qrcode/r0NCdtmxYzEEXSogzBkt" style="width:100px;height:100px;"
                     class="codeImg"></img>
-                <p class="scanText" style="z-index: 1;">Scanner pour payer </p>
-                <div class="cercle0ne">
+                <p class="scanText" style="z-index: 1;">Scanner pour payer </p> -->
+                <!-- <div class="cercle0ne">
                     <div class="cercleTwo">
                         <div class="cercleThree"></div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
-        <div class="secondNavContainer">
+       <!-- <div class="secondNavContainer">
             <ul class="item">
                 <a href="/transfert.html">
                     <li class="listIcon">
@@ -79,15 +100,14 @@
                 </li>
                 <a href="/history.html">
                     <li class="listIcon">
-                        <!-- <i class="fa fa-exchange" aria-hidden="true" style="font-size:28px"></i> -->
                     
                         <i class="fa fa-history" aria-hidden="true" style="font-size:28px"></i>
                         <span class="footerLabel">History</span>
                     </li>
-                </a>
+                </a> 
             </ul>
 
-        </div>
+        </div> -->
 
         <div class="bannerContainer">
             Banner Pub
@@ -95,7 +115,7 @@
 
         <div class="lastBill">
             <div class="headerbill">
-                <p class="textHeadBill">Mes 3 dernieres transactions</p><span class="seePlus">Voir plus</span>
+                <p class="textHeadBill">3 lasts transactions</p><span class="seePlus">See More</span>
             </div>
             <div class="bodyBill">
                 <div class="billInfo">
@@ -168,21 +188,25 @@
                         </li>
                     </a>
                     <li class="footerList">
-                        <i class="fa fa-download" aria-hidden="true" style="font-size:28px"></i>
-                        <span class="footerLabel">Dépôt</span>
+                        <a href="/codeToPay.html" style="display: flex;flex-direction: column;color: inherit;">
+                            <i class="fa fa-qrcode" aria-hidden="true" style="font-size:28px"></i>
+                            <span class="footerLabel">Pay</span>
+                        </a>
                     </li>
                     <li class="footerList">
-                        <i class="fa fa-money iconMoney" aria-hidden="true" style="font-size:28px"></i>
-                        <span class="footerLabel">Retrait</span>
+                        <a href="/transfert.html" style="display: flex;flex-direction: column;justify-content: center;align-items: center;color: inherit;">
+                            <i class="fa fa-money iconMoney" aria-hidden="true" style="font-size:28px"></i>
+                            <span class="footerLabel">Transfer</span>
+                        </a>
                     </li>
                     <li class="footerList">
-                        <i class="fa fa-university" aria-hidden="true" style="font-size:28px"></i>
-                        <span class="footerLabel">Banque</span>
+                        <i class="fa fa-share-alt" aria-hidden="true" style="font-size:28px"></i>
+                        <span class="footerLabel">Share</span>
                     </li>
-                    <li class="footerList">
+                    <!-- <li class="footerList">
                         <i class="fa fa-ellipsis-h" aria-hidden="true" style="font-size:28px"></i>
                         <span class="footerLabel">Autres</span>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

@@ -23,7 +23,6 @@ body {
 }
 a {
   text-decoration: none;
-  color: inherit;
 }
 .navbar {
   display: flex;
@@ -49,9 +48,9 @@ a {
   border-radius: 20px;
   color: aliceblue;
 }
-/* .navLink {
-  
-} */
+.navLink {
+  margin-right: -20px; 
+}
 .itemContainer {
   display: flex;
   justify-content: center;
@@ -74,51 +73,65 @@ a {
 
 .header {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
-  margin: 20px 0px;
+  margin: 20px 0;
+}
+.myAccount {
+  color: #1f58df;
+  font-size: 24px;
 }
 .soldContainer {
   display: flex;
   flex-direction: column;
-  width: 150px;
-  height: 180px;
-  /* border: 1px solid #000; #2a85e5*/
-  background-color: #fff;
+   /*justify-content: center;*/
+  align-items: center; 
+  width: 100%;
+  height: 220px;
+  color: #fff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 30px;
   border: none;
-  border-bottom: 5px solid #3632bf;
+  background-color:  #3632bf;
 }
 .head {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: -10px;
+  text-align: center;
+  width: 200px;
+  align-items: center;
+  margin-top: -40px;
  /* // border: 1px solid red; */
 }
-/* .sold {
-  margin-top: -20px;
-} */
-.soldeTitle {
-  color: #1f58df;
-  /* //margin-bottom: -10px; */
+
+.sold {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
  
+}
+.soldeTitle {
+  color: rgb(161, 179, 210);
 }
 .fa-eye {
 
-  color: rgb(30, 48, 80);
+  color: rgb(161, 179, 210);
 }
 .solodNumber {
   color:#f99f1b;
   font-weight: 600;
+  font-size: 30px;
+  
 
 }
 .miseAjour {
  font-size: 12px;
- color: #2a85e5;
  margin-top: -5px;
 }
 .cardImg {
@@ -129,9 +142,9 @@ a {
 }
 .fa-credit-card {
   margin-top: 10px;
-  color: rgb(30, 48, 80);
+  color: rgb(161, 179, 210);
 }
-.qrcodeContainer {
+/* .qrcodeContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,11 +153,10 @@ a {
   width: 150px;
   height: 180px;
   padding: 10px;
-  /* border: 1px solid #000; */
   background-color: #3632bf;
   overflow: hidden;
   position: relative;
-}
+} */
 .cercle1 {
   position: absolute;
   width: 105px;
@@ -229,15 +241,26 @@ a {
   align-items: center;
   height: 70px;
   /* border: 1px solid gray; */
-  background-color: #fff;
+  /* //background-color: #fff; */
+  color:#fff;
   margin-bottom: 20px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-
+.aLinkHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 50px;
+  gap: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
 .item {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 5px;
   align-items: center;
   /* gap: 50px; */
   /* border: 1px solid gray; */
@@ -249,13 +272,13 @@ a {
 
 .listIcon {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* //justify-content: space-between; */
+  /* align-items: center; */
   list-style: none;
-  width: 80px;
+  /* width: 150px; */
+  width: 100%;
   height: 100%;
-  /* border: 1px solid gray; */
+  border: 1px solid gray;
   /* margin: 0px 5px;*/
 } 
 
@@ -279,18 +302,22 @@ a {
   background-color: #277ae4;
   color: #fff;
   margin-bottom: 20px;
+  position: relative;
   /* //margin: 20px auto; */
 }
 
 .lastBill {
   background-color: #fff;
+  padding: 30px 0px;
+  margin-top: -40px;
   margin-bottom: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 .headerbill {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0px 20px;
   align-items: center;
   gap: 65px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.177);
@@ -589,4 +616,45 @@ input:checked + .slider:before {
     transform: rotate(-45deg);
 
   color: #1f58df;
+}
+
+/* code to pay component start here ... */
+
+
+.codeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3632bf;;
+  width: 100%;
+  height: 100%;
+  margin: -10px 0px;
+ 
+} 
+.scan  {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: -50px;
+}
+.pay {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -50px;
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #1f58df;
+  border-radius: 20px;
+}
+.containerCode {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  background-color: #fff;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
 }
