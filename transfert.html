@@ -94,41 +94,43 @@
         </div>
 
         <div class="transfertContainer">
-            <div class="input-group">
-                <div class="input-group-label">
-                  <span class="input-group-text" id=""><i class="fa fa-user-circle" aria-hidden="true" style="margin-right: 5px;"></i></i>Beneficiary</span>
+            <form action="submit">
+                <div class="input-group">
+                    <div class="input-group-label">
+                      <span class="input-group-text" id=""><i class="fa fa-user-circle" aria-hidden="true" style="margin-right: 5px;"></i></i>Beneficiary</span>
+                    </div>
+                    <input type="text" placeholder="Mobile Number" class="form-control" id="inputFirst">
                 </div>
-                <input type="text" placeholder="Mobile Number" class="form-control" id="inputFirst">
-            </div>
-
-            <div class="input-group">
-                <div class="input-group-label">
-                  <span class="input-group-text" id=""><i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> Amount to send</span>
+    
+                <div class="input-group">
+                    <div class="input-group-label">
+                      <span class="input-group-text" id=""><i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> Amount to send</span>
+                    </div>
+                    <input type="number" placeholder="000000" class="form-control" id="inputSecond">
                 </div>
-                <input type="number" placeholder="000000" class="form-control" id="inputSecond">
-            </div>
-            <div class="fraiContainer">
-                <span class="fraiText">Shipping costs 0.8%</span>
-                <span class="fraiMontant">D10</span>
-            </div>
-
-            <div class="input-group">
-                <div class="input-group-label">
-                  <span class="input-group-text" id=""><i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> Total Amount</span>
+                <div class="fraiContainer">
+                    <span class="fraiText">Shipping costs 0.8%</span>
+                    <span class="fraiMontant">D10</span>
                 </div>
-                <input type="number" placeholder="000000" class="form-control" id="inputSecond">
-            </div>
-            <div class="sendCodeContainer">
-                <p class="sendCode">Transfer with code</p>
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-               
-            </div>
-            <div class="btnContainer">
-                <button type="button" class="validBtn">Submit</button>
-            </div>
+    
+                <div class="input-group">
+                    <div class="input-group-label">
+                      <span class="input-group-text" id=""><i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> Total Amount</span>
+                    </div>
+                    <input type="number" placeholder="000000" class="form-control" id="inputSecond">
+                </div>
+                <div class="sendCodeContainer">
+                    <p class="sendCode">Transfer with code</p>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                   
+                </div>
+                <div class="btnContainer">
+                    <button type="button" class="validBtn">Submit</button>
+                </div>
+            </form>
         </div>
 
 
