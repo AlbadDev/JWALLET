@@ -10,35 +10,36 @@
 </head>
 <body>
     <div class="containerLogin">
-        
-        <div class="loginContainer">
-           <span class="headerLogin"> Log in</span>
-            <div class="imgContainer">
-                <i class="fa fa-user" aria-hidden="true" style="font-size: 50px;color: #1f58df;;"></i>
-               
-            </div>
-            <div class="input-group">
-                <div class="input-group-label">
-                  <span class="input-group-text" id="">
-                    <!-- <i class="fa fa-user-circle" aria-hidden="true" style="margin-right: 5px;"></i>
-                </i> -->
-                Mobile Number</span>
+        <form action="/action_page.php">
+            <div class="loginContainer">
+            <span class="headerLogin"> Log in</span>
+                <div class="imgContainer">
+                    <i class="fa fa-user" aria-hidden="true" style="font-size: 50px;color: #1f58df;;"></i>
+                
                 </div>
-                <input type="number" placeholder="111-22-33" class="form-control" id="inputFirst">
-            </div>
+                <div class="input-group">
+                    <div class="input-group-label">
+                    <span class="input-group-text" id="">
+                        <!-- <i class="fa fa-user-circle" aria-hidden="true" style="margin-right: 5px;"></i>
+                    </i> -->
+                    Mobile Number</span>
+                    </div>
+                    <input type="number" placeholder="111-22-33" class="form-control" id="inputFirst">
+                </div>
 
-            <div class="input-group">
-                <div class="input-group-label">
-                  <span class="input-group-text" id="">
-                    <!-- <i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> -->
-                     Password</span>
+                <div class="input-group">
+                    <div class="input-group-label">
+                    <span class="input-group-text" id="">
+                        <!-- <i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> -->
+                        Password</span>
+                    </div>
+                    <input type="password" placeholder="******" class="form-control" id="inputSecond">
                 </div>
-                <input type="password" placeholder="******" class="form-control" id="inputSecond">
+                <p>Forgot password ?</p>
+                <button class="login">Log in</button>
+                <a href="/register.html">Register</a>
             </div>
-            <p>Forgot password ?</p>
-            <button class="login">Log in</button>
-            <a href="/register.html">Register</a>
-        </div>
+        </form>
     </div>
 </body>
 </html>
