@@ -685,6 +685,7 @@ input:checked + .slider:before {
   background-color: #fff; 
   border-radius: 20px;
   padding: 20px;
+  width: 300px;
   height: 560px;
 }
 .headerLogin {
@@ -714,4 +715,5 @@ input:checked + .slider:before {
   color: #fff;
   background-color: #f99f1b;
   margin-bottom: 10px;
+  cursor: pointer;
 }
