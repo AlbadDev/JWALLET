@@ -145,19 +145,7 @@ a {
   margin-top: 10px;
   color: rgb(161, 179, 210);
 }
-/* .qrcodeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  width: 150px;
-  height: 180px;
-  padding: 10px;
-  background-color: #3632bf;
-  overflow: hidden;
-  position: relative;
-} */
+
 .cercle1 {
   position: absolute;
   width: 105px;
@@ -622,7 +610,7 @@ input:checked + .slider:before {
 }
 
 /* code to pay component start here ... */
-s
+
 
 .codeContainer {
   display: flex;
