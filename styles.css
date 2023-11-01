@@ -503,6 +503,7 @@ a {
   width: 100%;
 }
 .fraiContainer {
+  margin: 10px 0px;
   display: flex;
   justify-content: space-between;
   width: 100%;
