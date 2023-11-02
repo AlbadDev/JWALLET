@@ -299,6 +299,15 @@ a {
   border-top-right-radius: 5px;
   /* //margin: 20px auto; */
 }
+.bodyBill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: c;
+  width: 100%;
+  /* border: 1px solid red; */
+
+}
 
 .lastBill {
   background-color: #fff;
@@ -327,13 +336,15 @@ a {
   justify-content: space-around;
   align-items: center;
   padding: 15px 0px;
+  width: 100%;
 }
+
 
 .recieverContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  width: 40%;
   height: 30px;
   padding-left: 10px;
   /* padding-top: 15px; */
@@ -347,10 +358,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   height: 30px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   padding-top: 15px;
+  margin-left: -20px;
+  /* border: 1px solid red; */
+  width: 40%;
 }
 .sendAmount {
   margin-bottom: -10px;
@@ -368,6 +382,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 75%;
+  margin-left: -30px;
 }
 .botton {
   display: flex;
@@ -393,7 +409,7 @@ a {
   align-items: center;
   border: 1px solid rgba(128, 128, 128, 0.147);
   border-radius: 20px;
-  width: 55px;
+  width: 20%;
   height: 50px;
   gap: 2px;
 }
