@@ -90,12 +90,13 @@ a {
    /*justify-content: center;*/
   align-items: center; 
   width: 100%;
-  height: 200px;
+  height: 150px;
   color: #fff;
   padding: 10px;
   border-radius: 30px;
   border: none;
   background-color:  #3632bf;
+  margin-top: -10px;
 }
 .head {
   display: flex;
@@ -114,7 +115,8 @@ a {
   width: 100%;
   align-items: center;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: -10px;
+
  
 }
 .soldeTitle {
