@@ -309,6 +309,9 @@ a {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+#lastBillHistory {
+  margin: 20px 0px;
+}
 .headerbill {
   display: flex;
   justify-content: space-between;
