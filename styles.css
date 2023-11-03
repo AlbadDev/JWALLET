@@ -17,7 +17,6 @@ body {
   align-items: center;
   color: #000;
  
-  border: 5px solid #e6e7ea43;
   border-radius: 5px;
   background-color: none;
   width: 380px;
@@ -93,7 +92,7 @@ a {
   height: 150px;
   color: #fff;
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
   border: none;
   background-color:  #3632bf;
   /* margin-top: -10px; */
@@ -295,8 +294,8 @@ a {
   margin-bottom: 20px;
   margin-top: -10px;
   position: relative;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
   /* //margin: 20px auto; */
 }
 .bodyBill {
@@ -428,7 +427,7 @@ a {
   align-items: center;
   background-color: #fff;
   height: 80px;
-  width: 100%;
+  /* width: 100%; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   
@@ -1008,10 +1007,11 @@ input:checked + .slider:before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 360px;
+    width: 340px;
     height: 150px;
     overflow: hidden;
     margin-top: -20px;
+    margin-bottom: 10px;
     /* padding-top: 10px; */
   }
   .sold {
@@ -1039,15 +1039,13 @@ input:checked + .slider:before {
  .bannerContainer {
   /* display: none; */
   width: 360px;
-  height: 70px;
+  height: 90px;
  }
- /* .bodyBill {
-  width: 100%;
-  border: 5px solid red;
- } */
+
  .lastBill {
   width: 360px;
-  margin-top: -10px;
+  border-radius: 5px;
+  margin-top: 10px;
  }
  .headerbill{
   display: flex;
@@ -1091,7 +1089,8 @@ input:checked + .slider:before {
  }
 
 .footerNav {
-  width: 360px;
+  border-radius: 5px;
+  width: 380px;
   bottom: 0;
   margin-bottom: 10px;
   position: fixed;
