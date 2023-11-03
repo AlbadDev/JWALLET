@@ -977,7 +977,7 @@ input:checked + .slider:before {
 }
 }
 
-@media (max-width: 340px) and (max-height: 513px) {
+@media (max-width: 364px) and (max-height: 513px) {
   body {
     border: 5px solid red;
   }
