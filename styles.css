@@ -760,9 +760,14 @@ input:checked + .slider:before {
   }  
   .navbar {
     width: 280px;
+    top: 0;
+    position: fixed; 
+    margin-top: 5px;
     /* border: 2px solid red; */
   }
-
+  .header {
+    margin-top: 100px;
+  }
   .soldContainer {
     display: flex;
     flex-direction: column;
@@ -842,6 +847,9 @@ input:checked + .slider:before {
 
 .footerNav {
   width: 290px;
+  bottom: 0;
+  margin-bottom: 10px;
+  position: fixed;
 }
 
 
@@ -850,6 +858,7 @@ input:checked + .slider:before {
 @media (min-width: 335px) and (max-width: 375px) {
   body {
     padding:0px 15px ;
+    
   }
   .container {
     display: flex;
@@ -861,9 +870,14 @@ input:checked + .slider:before {
   }  
   .navbar {
     width: 340px;
+    top: 0;
+    position: fixed; 
+    margin-top: 5px;
     /* border: 2px solid red; */
   }
-
+  .header {
+    margin-top: 108px;
+  }
   .soldContainer {
     display: flex;
     flex-direction: column;
@@ -953,5 +967,11 @@ input:checked + .slider:before {
 
 .footerNav {
   width: 340px;
+  bottom: 0;
+  margin-bottom: 10px;
+  position: fixed;
+  /* //position: fixed; */
+
+
 }
 }
