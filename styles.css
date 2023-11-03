@@ -746,7 +746,7 @@ input:checked + .slider:before {
 
 
 
-@media (min-width: 280px) and (max-width: 750px) {
+@media (min-width: 280px) and (max-width: 375px) {
   .container {
     display: flex;
     flex-direction: column;
