@@ -977,10 +977,14 @@ input:checked + .slider:before {
 }
 }
 
-@media (min-width: 320px) and (max-height: 513px) {
-  /* body {
-    border: 5px solid red;
-  } */
+@media (max-width: 340px) and (max-height: 513px) {
+  .navbar {
+    height: 40px;
+  }
+  .soldContainer {
+    margin-top: -50px;
+    height: 100px;
+  }
     .billInfo {
       height: 40px;
       padding: 0;
