@@ -96,7 +96,7 @@ a {
   border-radius: 30px;
   border: none;
   background-color:  #3632bf;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 .head {
   display: flex;
@@ -105,7 +105,7 @@ a {
   text-align: center;
   width: 200px;
   align-items: center;
-  margin-top: -40px;
+  /* margin-top: -40px; */
  /* // border: 1px solid red; */
 }
 
@@ -115,7 +115,7 @@ a {
   width: 100%;
   align-items: center;
   gap: 10px;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 
  
 }
@@ -234,7 +234,7 @@ a {
   /* border: 1px solid gray; */
   /* //background-color: #fff; */
   color:#fff;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -326,7 +326,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
-  padding-top: 5px;
   align-items: center;
   gap: 65px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.177);
@@ -352,7 +351,7 @@ a {
 .receiverName {
   /* margin-bottom: -10px; */
   cursor: pointer;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .moneyDetail {
   display: flex;
@@ -410,7 +409,7 @@ a {
   border: 1px solid rgba(128, 128, 128, 0.147);
   border-radius: 20px;
   width: 20%;
-  height: 50px;
+  /* height: 50px; */
   gap: 2px;
 }
 .textHeadBill {
@@ -730,4 +729,108 @@ input:checked + .slider:before {
   background-color: #f99f1b;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* .................................................. */
+/* ,.................................................. */
+/* ............MEDIA QUERY START HERE................... */
+
+
+
+
+@media (min-width: 280px) and (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+  .navbar {
+   
+    width: 280px;
+  }
+
+  .soldContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 110px;
+    overflow: hidden;
+    margin-top: -20px;
+    /* padding-top: 10px; */
+  }
+  .sold {
+    /* border: 5px solid red; */
+    height: 30px;
+  }
+  .solodNumber {
+    font-size: 16px;
+  }
+  .head {
+    height: 20px;
+    /* border: 5px solid red; */
+  }
+  .secondNavContainer {
+    /* border: 5px solid red; */
+    height: 40px;
+  }
+ .bannerContainer {
+  display: none;
+  height: 50px;
+ }
+ .lastBill {
+  margin-top: -10px;
+ }
+ .headerbill{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 20px;
+  /* border: 5px solid red; */
+  margin-top: -10px;
+ }
+ .textHeadBill {
+  font-size: 12px;
+ }
+ .seePlus {
+  font-size: 12px;
+ }
+ .billInfo {
+  height: 30px;
+  width: 280px;
+   /* border: 5px solid red; */
+ }
+ .botton {
+  height: 30px;
+ }
+ .receiverName {
+  font-size: 14px;
+  /* font-weight: 500px; */
+ }
+ .money {
+  font-size: 12px;
+ }
+ .dateTransfert {
+  font-size: 10px;
+ }
+
+.footerNav {
+  width: 290px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  
 }
