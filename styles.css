@@ -982,13 +982,13 @@ input:checked + .slider:before {
     border: 5px solid red;
   } */
   .navbar {
-    height: 50px;
+    height: 60px;
   }
   .headerbill {
     margin-bottom: 2px;
   }
   .soldContainer {
-    margin-top: -50px;
+    margin-top: -43px;
     width: 290px;
     height: 100px;
   }
@@ -1009,6 +1009,7 @@ input:checked + .slider:before {
 
     .footerNav {
       width: 320px;
+      border-radius: 5px;
     }
   }
 
