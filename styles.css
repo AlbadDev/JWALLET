@@ -989,6 +989,7 @@ input:checked + .slider:before {
   }
   .soldContainer {
     margin-top: -50px;
+    width: 290px;
     height: 100px;
   }
   .iconContainer {
@@ -1004,6 +1005,10 @@ input:checked + .slider:before {
     }
     .receiverName {
       font-size: 10px;
+    }
+
+    .footerNav {
+      width: 320px;
     }
   }
 
