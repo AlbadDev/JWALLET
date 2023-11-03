@@ -984,11 +984,14 @@ input:checked + .slider:before {
   .navbar {
     height: 60px;
   }
+  .lastBill {
+    margin-top: 10px;
+  }
   .headerbill {
     margin-bottom: 2px;
   }
   .soldContainer {
-    margin-top: -43px;
+    margin-top: -35px;
     width: 290px;
     height: 100px;
   }
@@ -997,6 +1000,7 @@ input:checked + .slider:before {
     width: 30px;
     padding: 0px;
   }
+  
     .billInfo {
       height: 40px;
       padding: 0;
