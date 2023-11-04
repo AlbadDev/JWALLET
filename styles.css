@@ -1100,6 +1100,10 @@ input:checked + .slider:before {
   margin-top: 10px;
   overflow: auto;
  }
+ #lastBillHistory {
+  margin-top: -20px;
+  /* border: 5px solid red; */
+ }
  .headerbill{
   display: flex;
     justify-content: center;
