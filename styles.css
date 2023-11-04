@@ -1101,7 +1101,7 @@ input:checked + .slider:before {
   overflow: auto;
  }
  #lastBillHistory {
-  margin-top: -20px;
+  margin-top: -10px;
   /* border: 5px solid red; */
  }
  .headerbill{
