@@ -649,63 +649,6 @@ input:checked + .slider:before {
   border-radius: 10px;
 }
 
-/* ................................................................. */
-/* ................................................................. */
-          /* LOGIN COMPONENT STYLE START HERE */
-/* ................................................................. */
-/* ................................................................. */
-
-
-.containerLogin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 780px;
-  background-color: #1f58df;
-}
-.loginContainer {
-  display: flex;flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 100px auto;
-  background-color: #fff; 
-  border-radius: 20px;
-  padding: 20px;
-  width: 300px;
-  /* height: 560px; */
-}
-.headerLogin {
-  color: #1f58df;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-.imgContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #1f58df;
-  border-radius: 100px;
-  margin-bottom: 20px;
-  background-color: transparent;
-}
-.login {
-  padding: 10px 90px;
-  border: none;
-  border-radius: 20px;
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-  background-color: #f99f1b;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
 
 
 
@@ -792,6 +735,7 @@ input:checked + .slider:before {
   overflow: auto;
  }
  #lastBillHome {
+  margin-top: 10px;
   padding-bottom: 30px;
  }
  #lastBillHistory {
@@ -896,10 +840,10 @@ input:checked + .slider:before {
 }
 
 @media (min-width: 335px) and (max-width: 375px) {
-  body {
+  /* body {
     padding:0px 15px ;
     
-  }
+  } */
   .container {
     display: flex;
     flex-direction: column;
@@ -1064,7 +1008,9 @@ input:checked + .slider:before {
 }
 
  /* ............ */
+/* .....login ......... */
 
+/* .................... */
 .footerNav {
   width: 320px;
   bottom: 0;
