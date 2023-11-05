@@ -154,20 +154,17 @@
 
 @media (min-width: 412px) and (max-width: 768px) {
     body {
+        background-color: #1f58df;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         margin:0;
         box-sizing: border-box;
     }
-    .containerLogin {
+    .containerfORM {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* height:736px; */
-       background-color: #1f58df;
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       height: 100vh;
-       padding: 50px auto;
     }
     .imgContainer {
         width: 100px;
@@ -191,10 +188,10 @@
     padding: 20px;
     width: 250px;
     height: 400px;
-    margin: 50px auto ;
-    /* margin-bottom: 200px; */
+    margin-top: 150px ;
+    margin-bottom: 200px;
     /* height: 560px; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 }
 
