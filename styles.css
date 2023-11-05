@@ -839,7 +839,7 @@ input:checked + .slider:before {
 
 }
 
-@media (min-width: 335px) and (max-width: 375px) {
+@media (min-width: 335px) and (max-width: 370px) {
   /* body {
     padding:0px 15px ;
     
@@ -855,6 +855,7 @@ input:checked + .slider:before {
   .navbar {
     width: 300px;
     top: 0;
+    height: 50px;
     position: fixed;
     border: 2px solid red;
   }
@@ -880,7 +881,7 @@ input:checked + .slider:before {
     width: 300px;
     height: 150px;
     overflow: hidden;
-    margin-top: -20px;
+    margin-top: -40px;
     /* padding-top: 10px; */
   }
   .sold {
@@ -918,9 +919,9 @@ input:checked + .slider:before {
   width: 300px;
   margin-top: 10px;
   margin-bottom: -20px;
-  height: 330px;
+  height: 200px;
   overflow: auto;
-  /* border: 5px solid red; */
+  border: 5px solid red;
  }
  #lastBillHistory {
   margin-top: -10px;
@@ -1139,7 +1140,7 @@ input:checked + .slider:before {
 
 
 
-@media (min-width: 380px) and (max-width: 768px) {
+@media (min-width: 370px) and (max-width: 768px) {
   body {
     padding:0px 15px ;
     
