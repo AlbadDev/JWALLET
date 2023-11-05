@@ -5,7 +5,7 @@
 /* ................................................................. */
 
 
-.containerLogin {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,12 +16,11 @@
     position: fixed;
 }
 
-.loginContainer {
+.forgetContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     margin: 100px auto;
     background-color: #fff;
     border-radius: 20px;
@@ -29,12 +28,19 @@
     width: 300px;
     /* height: 560px; */
 }
+.EmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-.headerLogin {
+.headerEmail {
     color: #1f58df;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .imgContainer {
@@ -63,8 +69,8 @@
 }
 
 .form-control {
-    min-width: 100px;
-    max-width: 100px;
+   
+    width: 150px;
     height: 36px;
     border: 1px solid #cccccc74;
     border-left: none;
@@ -84,7 +90,7 @@
     align-items: center;
     font-size: 14px;
     padding: 10px;
-    width: 130px;
+    width: 70px;
     height: 20px;
     background-color: #7d797914;
     border-top-left-radius: 3px;

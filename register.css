@@ -5,7 +5,7 @@
 /* ................................................................. */
 
 
-.containerLogin {
+.containerRegister {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     position: fixed;
 }
 
-.loginContainer {
+.RegisterContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,9 +28,17 @@
     padding: 20px;
     width: 300px;
     /* height: 560px; */
+    /* border: 1px solid red; */
+}
+.formcONTAINER {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.headerLogin {
+.headerRegister {
     color: #1f58df;
     font-size: 24px;
     font-weight: 600;
@@ -158,9 +166,8 @@
         margin:0
     }
     .containerLogin {
-        padding-top: 50px ;
         height: 80vh;
-        position: fixed;
+        
     }
     .imgContainer {
         width: 100px;
@@ -170,7 +177,7 @@
         margin-bottom: 10px;
     }
     .login { 
-        margin-top: -5px;
+        margin-top: 5px;
     }
     .loginContainer {
     display: flex;
@@ -185,6 +192,9 @@
     width: 250px;
     height: 400px;
     /* height: 560px; */
+    }
+    .alreadyHaveAccount {
+        margin-top: -30px;
     }
     /* body {
         background-color: #1f58df;
@@ -226,6 +236,10 @@
         margin-bottom: 200px;
    
     } */
+    #selectButton {
+        height: 40px;
+        /* border: 1px solid red; */
+    }
 }
 
 /* .............................................. */
