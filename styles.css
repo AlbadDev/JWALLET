@@ -856,7 +856,7 @@ input:checked + .slider:before {
     width: 300px;
     top: 0;
     position: fixed;
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
   .bodyContainer {
     display: flex;
@@ -918,7 +918,7 @@ input:checked + .slider:before {
   width: 300px;
   margin-top: 10px;
   margin-bottom: -20px;
-  height: 350px;
+  height: 330px;
   overflow: auto;
   /* border: 5px solid red; */
  }
@@ -972,11 +972,19 @@ input:checked + .slider:before {
  }
 
  /* TRANFERT ............*/
+
  .transfertContainer {
   margin-top: -5px;
   width: 300px;
-  height: 270px;
+  /* height: 270px; */
   overflow: auto;
+ }
+ .transterFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
  }
  .input-group {
   display: flex;
