@@ -159,7 +159,11 @@
     }
     .containerLogin {
         /* height:736px; */
-        height: 100vh;
+       background-color: #1f58df;
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 100%;
         
     }
     .imgContainer {
