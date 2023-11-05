@@ -154,7 +154,8 @@
 
 @media (min-width: 412px) and (max-width: 768px) {
     body {
-        margin:0
+        margin:0;
+        box-sizing: border-box;
     }
     .containerLogin {
         height:736px;
@@ -184,7 +185,7 @@
     width: 250px;
     height: 400px;
     /* height: 560px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 }
 
