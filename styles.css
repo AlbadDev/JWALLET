@@ -918,12 +918,14 @@ input:checked + .slider:before {
   width: 300px;
   margin-top: 10px;
   margin-bottom: -20px;
-  height: 250px;
+  height: 350px;
   overflow: auto;
   /* border: 5px solid red; */
  }
  #lastBillHistory {
   margin-top: -10px;
+  /* border: 1px solid red; */
+  
  }
  .headerbill{
   display: flex;
@@ -1015,7 +1017,7 @@ input:checked + .slider:before {
   width: 320px;
   bottom: 0;
   position: fixed;
-  
+ 
   /* border: 5px solid red; */
 }
 }
@@ -1041,13 +1043,13 @@ input:checked + .slider:before {
   }
   .lastBill {
     margin-top: 20px;
-    
+   
   }
   #lastBillHistory {
    /* margin-top: -5px; */
     /* border: 5px solid red; */
     overflow: auto;
-
+   
   }
   .headerbill {
     margin-bottom: 2px;
@@ -1123,6 +1125,7 @@ input:checked + .slider:before {
     .footerNav {
       width: 300px;
       border-radius: 5px;
+     
     }
   }
 
@@ -1204,7 +1207,7 @@ border: 2px solid red;
 } */
  .lastBill {
   width: 360px;
-  height: 270px;
+  height: 290px;
   border-radius: 5px;
   margin-top: 10px;
   overflow: auto;
@@ -1253,12 +1256,21 @@ border: 2px solid red;
   
   font-size: 10px;
  }
-
+.transterFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: auto;
+  height: 320px;
+}
  .transfertContainer {
   
   width: 340px;
   margin-top: -20px;
  
+ }
+ .validBtn {
+  padding: 10px 0px;
  }
 
  /* TRANFERT ............*/

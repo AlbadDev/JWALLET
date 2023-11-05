@@ -104,11 +104,11 @@
     body {
         margin:0
     }
-    .containerLogin {
+    .container {
         height: 100vh;
         
     }
-    .loginContainer {
+    .forgetContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,8 +119,11 @@
     border-radius: 20px;
     padding: 20px;
     width: 250px;
-    height: 400px;
+    height: 200px;
     /* height: 560px; */
+    }
+    .input-group {
+        margin-bottom: -50px;
     }
 }
 

@@ -104,25 +104,57 @@
 /* ...........media query start here........... */
 @media (min-width: 0px) and (max-width: 320px) {
     body {
+         display: flex;
+        justify-content: center;
+        align-items: center;
+      
         margin:0
     }
-    .containerLogin {
-        height: 100vh;
-        
+    .containerRegister {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 90%; */
+        margin:  auto ;
+        /* padding: 20px; */
+        background-color: #1f58df;
+       
     }
-    .loginContainer {
+    .RegisterContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;
     width: 250px;
-    height: 400px;
+    height: 500px;
     /* height: 560px; */
+   
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .alreadyHaveAccount {
+        margin-top: -40px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    #selectButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+       width: 105px;
+       border: 1px solid rgba(128, 128, 128, 0.143);
+     
+        /* border: 1px solid red; */
     }
 }
 
@@ -157,6 +189,17 @@
     width: 250px;
     height: 400px;
     /* height: 560px; */
+}
+#selectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+   width: 105px;
+   border: 1px solid rgba(128, 128, 128, 0.143);
+   /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
 }
 
@@ -237,7 +280,14 @@
    
     } */
     #selectButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         height: 40px;
+       width: 105px;
+       border: 1px solid rgba(128, 128, 128, 0.143);
+       /* border: 1px solid red; */
         /* border: 1px solid red; */
     }
 }
