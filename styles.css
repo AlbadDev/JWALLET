@@ -857,7 +857,7 @@ input:checked + .slider:before {
     top: 0;
     height: 50px;
     position: fixed;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .bodyContainer {
     display: flex;
@@ -919,10 +919,10 @@ input:checked + .slider:before {
   width: 300px;
   margin-top: 10px;
   margin-bottom: -20px;
-  height: 200px;
+  height: 280px;
   overflow: auto;
-  border: 5px solid red;
- }
+  /* border: 5px solid red;*/
+ } 
  #lastBillHistory {
   margin-top: -10px;
   /* border: 1px solid red; */
