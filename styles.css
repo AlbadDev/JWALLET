@@ -705,6 +705,7 @@ input:checked + .slider:before {
     height: 110px;
     overflow: hidden;
     margin-top: -20px;
+    margin-bottom: -30px;
     /* padding-top: 10px; */
   }
   .sold {
@@ -722,17 +723,20 @@ input:checked + .slider:before {
     /* border: 5px solid red; */
     height: 40px;
   }
- .bannerContainer {
+ /* .bannerContainer {
   display: none;
   height: 50px;
- }
+ } */
  /* .bodyBill {
   width: 100%;
   border: 5px solid red;
  } */
  .lastBill {
   width: 290px;
+  height: 245px;
   overflow: auto;
+  /* border: 5px solid red; */
+  
  }
  #lastBillHome {
   margin-top: 10px;
@@ -919,9 +923,9 @@ input:checked + .slider:before {
   width: 300px;
   margin-top: 10px;
   margin-bottom: -20px;
-  height: 280px;
+  height: 270px;
   overflow: auto;
-  /* border: 5px solid red;*/
+  /* border: 5px solid red; */
  } 
  #lastBillHistory {
   margin-top: -10px;
@@ -979,13 +983,11 @@ input:checked + .slider:before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -5px;
   width: 300px;
-  height: 240px;
-  /* border: 5px solid red; */
-  padding-top: 60px;
+  height: 280px;
+  /* padding-top: 60px; */
   overflow: auto;
-  
+  margin-top: -10px;
  }
  .transterFormContainer {
   display: flex;
@@ -993,7 +995,10 @@ input:checked + .slider:before {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  
+  margin-top: 80px;
+ }
+ .btnContainer {
+  margin-bottom: -50px;
  }
  .input-group {
   display: flex;
@@ -1203,17 +1208,17 @@ input:checked + .slider:before {
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
-    margin-top: -20px;
+   
     width: 280px;
     overflow: auto;
-    height: 450px;
+    /* height: 450px; */
     /* padding-top: 110px; */
     /* border: 1px solid red; */
    
    }
    .transterFormContainer {
     /* border: 1px solid red; */
-    margin-top: -50px;
+    /* margin-top: -50px; */
     padding-bottom: 50px ;
     height: 700px;
     
@@ -1312,17 +1317,17 @@ input:checked + .slider:before {
       /* justify-content: center; */
       /* align-items: center; */
       flex-direction: column;
-      margin-top: -20px;
+     
       width: 280px;
       overflow: auto;
-      height: 450px;
+      /* height: 450px; */
       /* padding-top: 110px; */
       /* border: 1px solid red; */
      
      }
      .transterFormContainer {
       /* border: 1px solid red; */
-      margin-top: -50px;
+      /* margin-top: -50px; */
       padding-bottom: 50px ;
       height: 700px;
       
@@ -1376,10 +1381,225 @@ input:checked + .slider:before {
           height: 500px;
           padding-bottom: 150px;
         }
+        #lastBillHistory {
+          margin-top: 20px;  
+          height: 470px;
+          /* padding-bottom: 150px; */
+        }
+
+        .transfertContainer {
+          margin-top: -20px;
+          min-height: 470px;
+          /* border: 5px solid rgb(13, 0, 255); */
+          /* padding-bottom: 180px; */
+         }
+        .transterFormContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          overflow: auto;
+          padding-top: 20px;
+          min-height: 420px;
+          position: fixed;
+          /* border: 5px solid rgb(13, 0, 255); */
+        }
       }
 
 
   /* ..................................................... */
+@media (min-width: 370px) and (max-width: 400px) {
+  body {
+    padding:0px 15px ;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+  }  
+  .navbar {
+    width: 360px;
+    top: 0;
+    position: fixed; 
+    /* margin-top: 5px; */
+    /* border: 2px solid red; */
+  }
+  .bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 108px;
+    padding: 20px 0px;
+  }
+  /* .header {
+    margin-top: 108px;
+  } */
+  .soldContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 180px;
+    overflow: hidden;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    /* padding-top: 10px; */
+  }
+  .sold {
+    /* border: 5px solid red; */
+    height: 30px;
+  }
+  .solodNumber {
+    font-size: 20px;
+  }
+  .head {
+    height: 20px;
+    /* border: 5px solid red; */
+  }
+  .secondNavContainer {
+    /* border: 5px solid red; */
+    margin-top: 20px;
+    height: 40px;
+  }
+  .aLinkHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+  }
+ .bannerContainer {
+  /* display: none; */
+  width: 360px;
+  height: 90px;
+ }
+/* .bodyBill {
+border: 2px solid red;
+} */
+ .lastBill {
+  width: 360px;
+  height: 240px;
+  border-radius: 5px;
+  margin-top: -10px;
+  overflow: auto;
+ }
+ #lastBillHistory {
+  height: 220px;
+  margin-top: -10px;
+  /* border: 5px solid red; */
+ }
+ .headerbill{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 50px;
+  /* border: 5px solid red; */
+  margin-top: -10px;
+ }
+ .textHeadBill {
+  font-size: 16px;
+ }
+ .seePlus {
+  font-size: 12px;
+ }
+ .billInfo {
+  height: 40px;
+  width: 360px;
+   /* border: 5px solid red; */
+ }
+ .botton {
+  height: 40px;
+ }
+ .receiverName {
+  font-size: 14px;
+  font-weight: 600;
+ }
+ .moneyDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* border: 5px solid red; */
+  padding-right: 10px;
+ }
+ .money {
+  font-size: 12px;
+ }
+ .dateTransfert {
+  
+  font-size: 10px;
+ }
+ .transfertContainer {
+  margin-top: -20px;
+  height: 250px;
+ }
+.transterFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: auto;
+  height: 320px;
+  
+}
+ .transfertContainer {
+  
+  width: 340px;
+
+ 
+ }
+ .validBtn {
+  padding: 10px 0px;
+  
+ }
+
+ /* TRANFERT ............*/
+ .input-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.input-group-label {
+  display: flex;
+  align-items:center ;
+  padding: 10px;
+  width: 150px;
+  height: 30px;
+  background-color: #7d797914;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.form-control {
+  min-width: 130px;
+  max-width: 100px;
+  height: 46px;
+  border: 1px solid #cccccc74;
+  border-left:none ;
+  text-align: center;
+  
+}
+
+ /* ............ */
+
+
+.footerNav {
+  border-radius: 5px;
+  width: 380px;
+  bottom: 0;
+  
+  position: fixed;
+  /* //position: fixed; */
+
+
+}
+}
+
+
+/* ........................... */
 @media (min-width: 370px) and (max-width: 768px) {
   body {
     padding:0px 15px ;
@@ -1456,12 +1676,13 @@ border: 2px solid red;
 } */
  .lastBill {
   width: 360px;
-  height: 290px;
+  height: 310px;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: -10px;
   overflow: auto;
  }
  #lastBillHistory {
+  height: 290px;
   margin-top: -10px;
   /* border: 5px solid red; */
  }
@@ -1505,21 +1726,27 @@ border: 2px solid red;
   
   font-size: 10px;
  }
+ .transfertContainer {
+  margin-top: -20px;
+  height: 310px;
+ }
 .transterFormContainer {
   display: flex;
   flex-direction: column;
   gap: 5px;
   overflow: auto;
   height: 320px;
+  
 }
  .transfertContainer {
   
   width: 340px;
-  margin-top: -20px;
+
  
  }
  .validBtn {
   padding: 10px 0px;
+  
  }
 
  /* TRANFERT ............*/
