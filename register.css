@@ -77,7 +77,6 @@
     border: 1px solid #cccccc74;
     border-left: none;
     text-align: center;
-
 }
 
 .input-group {
@@ -202,7 +201,7 @@
         margin-bottom: 10px;
     }
     .login { 
-        margin-top: -5px;
+        margin: 5px;
     }
     .loginContainer {
     display: flex;
@@ -210,7 +209,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;

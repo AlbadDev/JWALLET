@@ -1148,9 +1148,9 @@ input:checked + .slider:before {
 
   /* .........MEDIA QUERY FOR LONG SCREEN SIZE ...... */
   @media (min-height: 650px) {
-    body {
+    /* body {
       border: 5px solid red;
-    }
+    } */
     /* .navbar {
       height: 60px;
     } */
@@ -1257,9 +1257,9 @@ input:checked + .slider:before {
       }
     /* } */
     @media (min-height: 740px) {
-      body {
+      /* body {
         border: 5px solid red;
-      }
+      } */
       /* .navbar {
         height: 60px;
       } */
@@ -1368,9 +1368,9 @@ input:checked + .slider:before {
 
 
       @media (min-height: 800px ) and  (max-height: 950px ) {
-        body {
+        /* body {
           border: 5px solid rgb(13, 0, 255);
-        }
+        } */
         .lastBill {
           margin-top: 20px;  
           height: 500px;
