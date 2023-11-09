@@ -21,7 +21,7 @@ a {
     align-items: center;
     width: 30px;
     height: 30px;
-    background-color: #1f58df;
+    /* background-color: #1f58df; */
     border-radius: 20px;
     color: aliceblue;
   }
@@ -53,7 +53,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3632bf;;
+    /* background-color: #3632bf;; */
     width: 100%;
     height: 660px;
     margin: -10px 0px;
