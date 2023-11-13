@@ -413,7 +413,7 @@ a {
 
 @media (min-width: 360px) and (max-width: 420px) {
     .bodyContainer {
-        height: 80vh;
+        height: 75vh;
         overflow: auto;
     }
     /* .......BLUE CONTAINER START..... */
