@@ -51,13 +51,6 @@ a {
  text-decoration: none;
 }
 
-/* style navbar end here */
-
-/* style body start here */
-body {
-    margin: 0 10px;
-   
-}
 .bodyContainer {
     display: flex;
     flex-direction: column;
@@ -72,6 +65,7 @@ body {
     z-index: 0;
     /* padding-top: 20px; */
 }
+
 /* ...........BLUE COMPONENT STYLE START HERE..... */
 .head {
     display: flex;
@@ -79,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color:  #3632bf;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -191,134 +185,208 @@ body {
   }
 /* ............BLUE COMPONENT STYLE END HERE ...........*/
 
-/* ............LAST 3 BILLS STYLE START HERE.............. */
-/* .............BODY HISTORY TRANSACTIONS.............. */
+/* .................BODY TRANSFER START ......... */
 .bodyPage {
     display: flex;
-    flex-direction: column;
-     /*justify-content: center;*/
-    align-items: center; 
+    justify-content: center;
+    /* align-items: center; */
     /* border: 1px solid blue; */
     background-color: #fff;
     width: 90%;
-    height: 55vh;
+    height: 54vh;
     margin-top: 20px;
-    padding-bottom: 5px;
     border-radius: 5px;
-    overflow: hidden;
 }
-.headerbill {
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    width: 100%;
-    margin-bottom: 10px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.177);
-    /* border: 1px solid blue; */
-}
-.textHeadBill {
-    width: 100%;
-    padding-left: 20px;
-}
-.textHeadBill {
-    font-weight: 600;
-    font-size: 12px;
-  }
-  .seePlus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    font-size: 12px;
-    color: #f99f1b;
-    text-decoration: underline;
-    letter-spacing: 1px;
-    cursor: pointer;
-  }
-  .billInfo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px 0px;
-    width: 100%;
-    /* border: 1px solid rgba(128, 128, 128, 0.147); */
-  }
-  .first {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    margin-left: -30px;
-  }
-  .recieverNameContainer {
+
+/* ................................................................. */
+/* ................................................................. */
+          /* TRANSFERT COMPONENT STAYLE START HERE */
+/* ................................................................. */
+/* ................................................................. */
+
+/* .transfertContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
-    height: 40px;
-    padding-left: 10px;
-    /* border: 5px solid rgba(128, 128, 128, 0.147); */
-  }
-  .receiverName {
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  .moneyDetail {
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px;
+    width: 95%;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+  
+} */
+.transfertContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    height: 30px;
-    padding-top: 15px;
-    /* border: 1px solid rgba(128, 128, 128, 0.147); */
-    width: 40%;
-  }
-  .money {
-    color: #f99f1b;
-  }
-  .dateTransfert {
-    font-size: 10px;
-    color: #2779e4ac;
-  }
-  .botton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .fa-user-circle-o {
-    color: #1f58df;
-  }
-  .fa-arrow-right {
-    font-size: 14px;
-    
-  }
-  .fa-money {
-    color: #1f961c;
-  }
-  .iconForTransfert {
-    margin-right: 2px;
-  }
-  .iconContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(128, 128, 128, 0.147);
-    border-radius: 20px;
-    width: 20%;
-    height: 40px;
-    gap: 2px;
-    
-  }
-  .botton {
-    color: #1f58df;
-  }
-/* style footer end here */
-.lastBill {
-    width: 300px;
+    /* border: 2px solid red; */
+    width: 280px;
+    /* padding-top: 110px; */
+    /* height: 420px; */
     /* overflow: auto; */
-} 
-/* style footer end here */
+   }
+   .input-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .input-group-label {
+    display: flex;
+    align-items:center ;
+    font-size: 14px;
+    padding: 10px;
+    
+    height: 20px;
+    background-color: #7d797914;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+  }
+  .fraiText {
+    font-size: 14px;
+  }
+  .form-control {
+    min-width: 100px;
+    max-width: 100px;
+    height: 36px;
+    border: 1px solid #cccccc74;
+    border-left:none ;
+    text-align: center;
+    
+  }
+  .btnContainer {
+    height: 40px;
+  }
+  #inputFirst {
+    
+    border-top-right-radius: 3px;
+  }
+  #inputSecond {
+    border-bottom-right-radius: 3px;
+  }
+  .sendCodeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .fraiContainer {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fraiMontant {
+    font-weight: 600;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .btnContainer{
+    width: 100%;
+    height: 50px;
+   
+  }
+  
+  .validBtn {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #f2f3f5;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f99f1b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .fa-arrow-right {
+    -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(-45deg);
+  
+    color: #1f58df;
+  }
+  
+  .fa-arrow-left {
+    -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(-45deg);
+  
+    color: #1f58df;
+  }
+  
+
+/* ...................BODY TRANSFER END............. */
+
+
 
 /* style footer start here */
 
@@ -366,6 +434,7 @@ body {
 /* style footer end here */
 
 
+
 /* ............................................ */
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
 
@@ -394,9 +463,9 @@ body {
         width: 110px;
     }
     .bodyPage {
-        height: 55vh;
         margin-top: 20px;
         padding: 0px 10px;
+        border-radius: 5px;
     }
     .billInfo {
         padding: 5px 0px;
@@ -404,11 +473,55 @@ body {
     .textHeadBill {
         font-size: 10px;
     }
-    .moneyDetail {
-        margin-right: 10px;
-    }
    
     /* .......BLUE CONTAINER END..... */
+
+    /* ................TRANSFER START........ */
+    .transfertContainer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 30vh;
+       /* border: 2px solid rgb(14, 13, 13); */
+       overflow: scroll;
+       padding-top: 70px;
+    }
+    .transterFormContainer {
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .inputContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .labelContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #aca3be24; 
+        height: 100%;
+        padding-left: 4px;
+        width: 35%;
+    }
+    .labelText {
+        font-size: 12px;
+    }
+    .inputField {
+        height: 100%;
+        width: 65%;
+        text-align: center;
+        border: none;
+        background-color:#aca3be24 ;
+    }
+    .fraiContainer {
+        width: 70%;
+        border: 1px solid red; 
+    }
 }
 
 @media (min-width: 360px) and (max-width: 420px) {
@@ -432,10 +545,55 @@ body {
         width: 120px;
     }
     .bodyPage {
-        height: 50vh;
         margin-top: 15px;
-        padding-right: 10px;
     }
+     /* ................TRANSFER START........ */
+     .transfertContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        /* border: 2px solid rgb(14, 13, 13); */
+        overflow: scroll;
+        /* padding-top: 70px; */
+        
+     }
+     .transterFormContainer {
+         /* border: 2px solid red; */
+         width: 100%;
+     }
+     .inputContainer {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 40px;
+         /* border: 1px solid red; */
+         width: 100%;
+         margin-bottom: 10px;
+     }
+     .labelContainer {
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         border: 1px solid #aca3be24; 
+         height: 100%;
+        padding-left: 4px;
+         width: 35%;
+     }
+     .labelText {
+         font-size: 13px;
+     }
+     .inputField {
+         height: 100%;
+         width: 65%;
+         text-align: center;
+         border: none;
+         background-color:#aca3be24 ;
+     }
+     .fraiContainer {
+         width: 70%;
+         border: 1px solid red; 
+     }
     .footer {
         height: 50px;
         margin-top: 10px;

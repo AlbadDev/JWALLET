@@ -3,7 +3,13 @@
 /* LOGIN COMPONENT STYLE START HERE */
 /* ................................................................. */
 /* ................................................................. */
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 100vh;
+    background-color: #1f58df;}
 
 .container {
     display: flex;
