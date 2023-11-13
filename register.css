@@ -258,6 +258,12 @@ body {
     .login { 
         margin-top: 5px;
     }
+    .RegisterContainer {
+        width: 330px;
+        position: fixed;
+        top: 0;
+        margin: 100px auto;
+    }
     .loginContainer {
     display: flex;
     flex-direction: column;
