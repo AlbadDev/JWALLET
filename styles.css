@@ -414,7 +414,7 @@ body {
 
 @media (min-width: 360px) and (max-width: 420px) {
     .bodyContainer {
-        height: 75vh;
+        height: 80vh;
     }
     /* .......BLUE CONTAINER START..... */
     .solodNumber {
