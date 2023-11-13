@@ -63,6 +63,7 @@ a {
     margin-top: 60px;
     overflow: hidden;
     z-index: 0;
+    position: fixed;
     /* padding-top: 20px; */
 }
 
@@ -412,7 +413,7 @@ a {
 
 @media (min-width: 360px) and (max-width: 420px) {
     .bodyContainer {
-        height: 85vh;
+        height: 80vh;
         overflow: auto;
     }
     /* .......BLUE CONTAINER START..... */
