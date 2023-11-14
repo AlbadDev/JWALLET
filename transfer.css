@@ -691,3 +691,178 @@ a {
   }
   /* .......BLUE CONTAINER END..... */
 }
+
+/* .............STYLE FOR TABLET DEVICE............ */
+
+@media (min-width: 712px) and (max-width: 1023px) {
+  .bodyContainer {
+      height: 90vh;
+  }
+  /* .......BLUE CONTAINER START..... */
+ /* ................TRANSFER START........ */
+ .transfertContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  /* border: 2px solid rgb(14, 13, 13); */
+  width: 500px;
+  overflow: scroll;
+  /* padding-top: 70px; */
+  
+}
+.transterFormContainer {
+  margin-top: -50px;
+   /* border: 2px solid red; */
+   width: 90%;
+}
+   /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+height: 5px;
+width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+background-color: #eee4e413; /* Change the background color as desired */
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #2944f5c3; /* Change the thumb color as desired */
+border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
+
+.inputContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   /* border: 1px solid red; */
+   width: 100%;
+   margin-bottom: 10px;
+}
+.labelContainer {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border: 1px solid #aca3be24; 
+   height: 100%;
+  padding-left: 4px;
+   width: 35%;
+}
+.labelText {
+   font-size: 20px;
+}
+.inputField {
+   height: 100%;
+   width: 65%;
+   text-align: center;
+   border: none;
+   background-color:#aca3be24 ;
+}
+
+.fraiText {
+  font-size: 16px;
+}
+  .bodyPage {
+      height: 50vh;
+      margin-top: 15px;
+      padding-right: 10px;
+  }
+  .footer {
+      height: 50px;
+      margin-top: 10px;
+     
+  }
+  /* .......BLUE CONTAINER END..... */
+}
+
+
+/* .............STYLE FOR LAPTOP DEVICE............ */
+
+@media (min-width: 1024px) and (max-width: 5023px) {
+  .bodyContainer {
+      height: 90vh;
+      margin: 20px auto;
+      width: 700px;
+  }
+  .secondNavContainer {
+    margin-bottom: 20px;
+  }
+  /* .......BLUE CONTAINER START..... */
+ /* ................TRANSFER START........ */
+ .transfertContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  /* border: 2px solid rgb(14, 13, 13); */
+  width: 500px;
+  overflow: scroll;
+  
+  /* padding-top: 70px; */
+  
+}
+.transterFormContainer {
+  margin-top: 130px;
+   /* border: 2px solid red; */
+   width: 90%;
+}
+   /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+height: 5px;
+width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+background-color: #eee4e413; /* Change the background color as desired */
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #2944f5c3; /* Change the thumb color as desired */
+border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
+
+.inputContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   /* border: 1px solid red; */
+   width: 100%;
+   margin-bottom: 10px;
+}
+.labelContainer {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border: 1px solid #aca3be24; 
+   height: 100%;
+  padding-left: 4px;
+   width: 35%;
+}
+.labelText {
+   font-size: 20px;
+}
+.inputField {
+   height: 100%;
+   width: 65%;
+   text-align: center;
+   border: none;
+   background-color:#aca3be24 ;
+}
+
+.fraiText {
+  font-size: 16px;
+}
+  .bodyPage {
+      height: 50vh;
+      margin-top: 15px;
+      padding-right: 10px;
+  }
+  .footer {
+      height: 50px;
+      margin-top: 10px;
+     
+  }
+  /* .......BLUE CONTAINER END..... */
+}
