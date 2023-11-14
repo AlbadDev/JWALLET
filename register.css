@@ -411,14 +411,14 @@ body {
     }
 
     .RegisterContainer {
-        height: 470px;
+        height: 440px;
        border: 5px solid red;
        
     }
     .formcONTAINER {
         /* margin-bottom: -30px ; */
         /* border: 5px solid red; */
-        height: 500px;
+        height: 450px;
     }
     .login {
         padding: 5px 60px;
