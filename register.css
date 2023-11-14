@@ -4,50 +4,39 @@
 /* ................................................................. */
 /* ................................................................. */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #1f58df;
-    margin: 0px auto;
+    
 }
 
-/* .RegisterContainer {
+
+.containerLogin {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #1f58df;
-    
-} */
+    height: 100vh;
+    overflow: auto;
+    /* background-color: #1f58df; */
+    position: fixed;
+    top: 0;
+}
 
-.RegisterContainer {
+.loginContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 50px auto ;
+    margin: 100px auto;
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;
     width: 300px;
-    left: 0;
-    right: 0;
-   
-    /* overflow: auto; */
     /* height: 560px; */
-    /* border: 1px solid red; */
-}
-.formcONTAINER {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
 
-.headerRegister {
+.headerLogin {
     color: #1f58df;
     font-size: 24px;
     font-weight: 600;
@@ -80,12 +69,13 @@ body {
 }
 
 .form-control {
-    /* min-width: 100px; */
+    /* min-width: 130px;*/
     width: 170px; 
     height: 36px;
     border: 1px solid #cccccc74;
     border-left: none;
     text-align: center;
+
 }
 
 .input-group {
@@ -100,97 +90,43 @@ body {
     align-items: center;
     font-size: 14px;
     padding: 10px;
-    width: 100px;
+    width: 60px;
     height: 20px;
     background-color: #7d797914;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-
+    /* border: 1px solid red; */
 }
+
 
 /* ...........media query start here........... */
 @media (min-width: 0px) and (max-width: 320px) {
     body {
-         display: flex;
-        justify-content: center;
-        align-items: center;
-      
         margin:0
     }
-    .containerRegister {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* width: 90%; */
-        margin:  auto ;
-        /* padding: 20px; */
-        background-color: #1f58df;
-       
+    .containerLogin {
+        height: 100vh;
+        
     }
-    .RegisterContainer {
+    .imgContainer {
+        width: 100px;
+    }
+    .loginContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* margin: 50px auto; */
+    margin: 50px auto;
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;
     width: 250px;
-    height: 500px;
+    height: 400px;
     /* height: 560px; */
-   
     }
-    .imgContainer {
-        width: 100px;
-        height: 100px;
-    }
-    .alreadyHaveAccount {
-        margin-top: -40px;
-    }
-    .login { 
-        margin-top: -5px;
-    }
-    .form-control {
-        /* min-width: 100px; */
-        width: 140px; 
-        height: 36px;
-        border: 1px solid #cccccc74;
-        border-left: none;
-        text-align: center;
-    
-    }
-    
-    .input-group {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 100%;
-    }
-    
-    .input-group-label {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        padding: 10px;
-        width: 100px;
-        height: 20px;
-        background-color: #7d797914;
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-    
-    }
-    #selectButton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 40px;
-       width: 145px;
-       border: 1px solid rgba(128, 128, 128, 0.143);
-     
-        /* border: 1px solid red; */
+    .forgetPass {
+        margin-bottom: -30px;
     }
 }
 
@@ -210,7 +146,7 @@ body {
         margin-bottom: 10px;
     }
     .login { 
-        margin: 5px;
+        margin-top: -5px;
     }
     .loginContainer {
     display: flex;
@@ -218,25 +154,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: #fff;
     border-radius: 20px;
-    padding: 20px;
-    width: 250px;
+    padding: 20px auto;
+    width: 300px;
     height: 400px;
     /* height: 560px; */
+    
 }
-#selectButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 40px;
-   width: 175px;
-   border: 1px solid rgba(128, 128, 128, 0.143);
-   /* border: 1px solid red; */
-    /* border: 1px solid red; */
+.input-group {
+    margin-left: 40px;
 }
+
 }
 
 
@@ -245,8 +175,9 @@ body {
         margin:0
     }
     .containerLogin {
+        padding-top: 50px ;
         height: 80vh;
-        
+        position: fixed;
     }
     .imgContainer {
         width: 100px;
@@ -256,13 +187,7 @@ body {
         margin-bottom: 10px;
     }
     .login { 
-        margin-top: 5px;
-    }
-    .RegisterContainer {
-        width: 330px;
-        position: fixed;
-        top: 0;
-        margin: 100px auto;
+        margin-top: -5px;
     }
     .loginContainer {
     display: flex;
@@ -274,12 +199,12 @@ body {
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;
-    width: 250px;
+    width: 300px;
     height: 400px;
     /* height: 560px; */
     }
-    .alreadyHaveAccount {
-        margin-top: -30px;
+    .input-group {
+        margin-left: 40px;
     }
     /* body {
         background-color: #1f58df;
@@ -321,17 +246,6 @@ body {
         margin-bottom: 200px;
    
     } */
-    #selectButton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 40px;
-        width: 175px;
-        border: 1px solid rgba(128, 128, 128, 0.143);
-       /* border: 1px solid red; */
-        /* border: 1px solid red; */
-    }
 }
 
 /* .............................................. */

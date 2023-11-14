@@ -193,9 +193,10 @@ a {
     /* border: 1px solid blue; */
     background-color: #fff;
     width: 90%;
-    height: 54vh;
+    /* height: 54vh; */
     margin-top: 20px;
     border-radius: 5px;
+    
 }
 
 /* ................................................................. */
@@ -441,7 +442,9 @@ a {
 @media (min-width: 0px) and (max-width: 320px) {
     .bodyContainer {
         height: 75vh;
+        border: 1px solid red;
     }
+  
     /* .......BLUE CONTAINER START..... */
     .secondNavContainer {
         margin-bottom: 10px;
@@ -481,13 +484,33 @@ a {
        display: flex;
        justify-content: center;
        align-items: center;
-       height: 30vh;
+       overflow: auto;
+        height: 30vh;
+        padding: 0px 15px;
        /* border: 2px solid rgb(14, 13, 13); */
-       overflow: scroll;
        padding-top: 70px;
     }
+    /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+  width: 2px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee4e4; /* Change the background color as desired */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2944f5; /* Change the thumb color as desired */
+  border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
+
+/* For Firefox */
+
+/* For Internet Explorer and Edge */
+
     .transterFormContainer {
         /* border: 2px solid red; */
+       
         width: 100%;
     }
     .inputContainer {
@@ -521,6 +544,9 @@ a {
     .fraiContainer {
         width: 70%;
         border: 1px solid red; 
+    }
+    .btnContainer {
+      margin:  20px 0px;
     }
 }
 

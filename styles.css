@@ -70,7 +70,7 @@ body {
     margin-top: 60px;
     overflow: hidden;
     z-index: 0;
-    position: fixed;
+    /* position: fixed; */
     /* padding-top: 20px; */
 }
 /* ...........BLUE COMPONENT STYLE START HERE..... */
