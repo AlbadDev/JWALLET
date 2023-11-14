@@ -421,6 +421,7 @@ body {
         color:#f99f1b;
         font-weight: 600;
         font-size: 19px;
+        
     }
     .soldeTitle {
         margin-top: -5px;
@@ -440,6 +441,42 @@ body {
     .footer {
         height: 50px;
         margin-top: 10px;
+       
     }
     /* .......BLUE CONTAINER END..... */
+}
+
+@media (min-width: 360px) and (max-height: 500px) {
+  .bodyContainer {
+      height: 80vh;
+  }
+  /* .......BLUE CONTAINER START..... */
+  /* .solodNumber {
+      color:#f99f1b;
+      font-weight: 600;
+      font-size: 19px;
+  }
+  .soldeTitle {
+      margin-top: -5px;
+  }
+  .aLinkHead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 20px;
+      width: 120px;
+  } */
+  .bodyPage {
+      height: 40vh;
+      margin-top: 15px;
+      padding-right: 10px;
+      /* padding-bottom: 50px; */
+      overflow: auto;
+  }
+  .footer {
+      height: 50px;
+      margin-top: 10px;
+      border: 2px solid red;
+  }
+  /* .......BLUE CONTAINER END..... */
 }
