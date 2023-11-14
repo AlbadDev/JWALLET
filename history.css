@@ -410,6 +410,20 @@ a {
         padding: 0px 10px;
         
     }
+        /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee4e413; /* Change the background color as desired */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2944f5c3; /* Change the thumb color as desired */
+  border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
 
     .billInfo {
         padding: 5px 0px;
@@ -461,6 +475,20 @@ a {
     .bodyBill {
         padding-bottom: 10px;
     }
+        /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee4e413; /* Change the background color as desired */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2944f5c3; /* Change the thumb color as desired */
+  border-radius: 6px; /* Optional: Add rounded corners to the thumb */
+}
     .footer {
         height: 50px;
         margin-top: 10px;
