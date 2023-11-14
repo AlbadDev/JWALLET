@@ -785,6 +785,10 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
       margin: 20px auto;
       width: 700px;
   }
+  .soldContainer {
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
   .secondNavContainer {
     margin-bottom: 20px;
   }

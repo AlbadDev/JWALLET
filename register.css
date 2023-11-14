@@ -427,3 +427,107 @@ body {
  
     /* .......BLUE CONTAINER END..... */
   }
+
+  /* .............STYLE FOR LABTOP DEVICES.......... */
+  @media (min-width: 768px) and (max-width: 5768px) {
+    body {
+        margin: 0px auto
+    }
+    .containerLogin {
+        height: 80vh;
+        
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: 5px;
+    }
+    .RegisterContainer {
+        width: 320px;
+    }
+    .imgContainer {
+        width: 80px;
+        min-height: 80px;
+    }
+    .bodyContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    /* background-color: #fff; */
+    border-radius: 20px;
+    padding: 20px;
+
+    height: 400px;
+    /* height: 560px; */
+    }
+    .alreadyHaveAccount {
+        margin-top: -30px;
+    }
+    /* body {
+        background-color: #1f58df;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin:0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .containerfORM {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    .loginContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        width: 250px;
+        height: 400px;
+        margin-top: 150px ;
+        margin-bottom: 200px;
+   
+    } */
+    #selectButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        width: 175px;
+        border: 1px solid rgba(128, 128, 128, 0.143);
+       /* border: 1px solid red; */
+        /* border: 1px solid red; */
+    }
+}
+
+/* .............................................. */

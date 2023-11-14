@@ -249,3 +249,45 @@ body {
 }
 
 /* .............................................. */
+
+/*............. STYLE FOR LABTOP DEVICES............. */
+
+
+@media (min-width: 768px) and (max-width: 5768px) {
+    body {
+        margin:0
+    }
+    .containerLogin {
+        padding-top: 50px ;
+        height: 80vh;
+        position: fixed;
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    /* height: 560px; */
+    }
+    .input-group {
+        margin-left: 40px;
+    }
+    
+
