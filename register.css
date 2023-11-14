@@ -388,13 +388,14 @@ body {
     }
     /* .......BLUE CONTAINER START..... */
     .imgContainer {
-        width: 80px;
-        height: 80px;
+        min-width: 30px;
+        min-height: 30px;
         margin-top: -30px;
         margin-bottom: 0px;
     }
-    .fa {
-        font-size: 16px;
+    #fa-user {
+        font-size: 30px;
+        margin: -10px;
     }
 
     .bodyPage {
@@ -406,7 +407,7 @@ body {
         /* padding: 20px 0px; */
         /* padding-bottom: 50px; */
         
-        overflow: hidden;
+        overflow: auto;
     }
 
     .RegisterContainer {
