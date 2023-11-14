@@ -680,7 +680,7 @@ a {
   } */
   .transterFormContainer {
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     overflow: auto;  
   }
 /* .btnContainer {
@@ -690,7 +690,6 @@ a {
   .footer {
       height: 50px;
       margin-top: 10px;
-      border: 2px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }
