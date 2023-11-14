@@ -446,7 +446,7 @@ body {
     /* .......BLUE CONTAINER END..... */
 }
 
-@media (min-width: 360px) and (max-height: 500px) {
+@media (min-width: 360px) and (max-height: 550px) {
   .bodyContainer {
       height: 80vh;
   }
