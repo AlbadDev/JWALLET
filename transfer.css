@@ -542,15 +542,14 @@ a {
         background-color:#aca3be24 ;
     }
     .fraiContainer {
-        width: 70%;
-        border: 1px solid red; 
+        width: 70%; 
     }
     .btnContainer {
       margin:  20px 0px;
     }
 }
 
-@media (min-width: 360px) and (max-width: 420px) {
+@media (min-width: 360px) and (max-width: 425px) {
     .bodyContainer {
         height: 77vh;
     }
@@ -633,7 +632,6 @@ a {
      }
      .fraiContainer {
          width: 70%;
-         border: 1px solid red; 
      }
     .footer {
         height: 50px;

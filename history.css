@@ -441,7 +441,7 @@ a {
     /* .......BLUE CONTAINER END..... */
 }
 
-@media (min-width: 360px) and (max-width: 420px) {
+@media (min-width: 360px) and (max-width: 425px) {
     .bodyContainer {
         height: 77vh;
         overflow: auto;
@@ -536,7 +536,6 @@ a {
   .footer {
       height: 50px;
       margin-top: 10px;
-      border: 2px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }
