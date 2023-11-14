@@ -680,7 +680,7 @@ a {
   } */
   .transterFormContainer {
     padding-top: 10px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 100px;
     overflow: auto;  
   }
 /* .btnContainer {
