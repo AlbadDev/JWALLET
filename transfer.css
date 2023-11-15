@@ -781,9 +781,10 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 
 @media (min-width: 1024px) and (max-width: 5023px) {
   .bodyContainer {
-      height: 90vh;
+      height: 95vh;
       margin: 20px auto;
       width: 700px;
+      
   }
   .soldContainer {
     margin-top: 10px;
@@ -794,12 +795,16 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
   }
   /* .......BLUE CONTAINER START..... */
  /* ................TRANSFER START........ */
+ .bodyPage {
+  height: 40vh;
+  /* border: 2px solid rgb(14, 13, 13); */
+ }
  .transfertContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
-  /* border: 2px solid rgb(14, 13, 13); */
+  
   width: 500px;
   overflow: scroll;
   
@@ -808,6 +813,7 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 }
 .transterFormContainer {
   margin-top: 130px;
+ 
    /* border: 2px solid red; */
    width: 90%;
 }
