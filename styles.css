@@ -556,9 +556,11 @@ body {
       height: 50vh;
       margin-top: 15px;
       padding-right: 10px;
+      width: 91.5%;
   }
   .lastBill {
     margin-top: 20px;
+    width: 80%;
   }
   .footer {
       height: 50px;
