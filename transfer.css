@@ -549,7 +549,7 @@ a {
     }
 }
 
-@media (min-width: 360px) and (max-width: 425px) {
+@media (min-width: 322px) and (max-width: 710px) {
     .bodyContainer {
         height: 77vh;
     }
