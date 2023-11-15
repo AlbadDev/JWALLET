@@ -439,9 +439,10 @@ body {
       width: 110px;
   }
   .bodyPage {
-      height: 50vh;
+      height: 40vh;
       margin-top: 15px;
       padding-right: 10px;
+      border: 2px solid red;
   }
   .footer {
       height: 50px;
