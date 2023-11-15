@@ -550,7 +550,7 @@ a {
     }
 }
 
-@media (min-width: 340px) and (max-width: 459px) and (min-height: 659px) {
+@media (min-width: 340px) and (max-width: 459px) and (max-height: 900px) {
   .bodyContainer {
       height: 80vh;
       width: 96.5%;
