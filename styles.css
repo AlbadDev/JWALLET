@@ -412,7 +412,7 @@ body {
     /* .......BLUE CONTAINER END..... */
 }
 
-@media (min-width: 340px) and (max-width: 459px) {
+@media (min-width: 340px) and (max-width: 359px) {
   .bodyContainer {
       height: 80vh;
       /* border: 2px solid red; */
@@ -439,10 +439,10 @@ body {
       width: 110px;
   }
   .bodyPage {
-      height: 40vh;
+      height: 45vh;
       margin-top: 15px;
       padding-right: 10px;
-      border: 2px solid red;
+      /* border: 2px solid red; */
   }
   .footer {
       height: 50px;
