@@ -3,7 +3,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 * {
-  scrollbar-color: #2944f5c3 #2944f5c3; /* scrollbar-color: track color, thumb color; */
+  scrollbar-color: #2944f5c3 #2944f504; /* scrollbar-color: track color, thumb color; */
   scrollbar-width: thin; /* "thin" or "auto" */
 }
 /* style navbar start here */
@@ -662,7 +662,7 @@ a {
   .bodyPage {
       height: 50vh;
       margin-top: 15px;
-      padding-right: 10px;
+      padding-right: 20px;
       padding-bottom: 20px;
      
   }
