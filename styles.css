@@ -415,10 +415,10 @@ body {
 @media (min-width: 340px) and (max-width: 359px) {
   .bodyContainer {
       height: 80vh;
-      /* border: 2px solid red; */
+      width: 97%;
   }
   .head {
-    width: 90%;
+    width: 89%;
     height: 150px;
   }
   /* .......BLUE CONTAINER START..... */

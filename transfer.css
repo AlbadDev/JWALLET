@@ -553,11 +553,13 @@ a {
 @media (min-width: 340px) and (max-width: 459px) {
   .bodyContainer {
       height: 80vh;
-      /* border: 2px solid red; */
+      width: 96.5%;
   }
   .head {
-    width: 90%;
+    width: 88.5%;
     height: 150px;
+    margin-left: 2px;
+    margin-top: -5px;
   }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
@@ -577,11 +579,21 @@ a {
       width: 110px;
   }
   .bodyPage {
-      height: 50vh;
+      height: 43.5vh;
       margin-top: 15px;
       padding-right: 10px;
+      padding-bottom: 10px;
+      overflow: auto;
   }
-
+  .transfertContainer {
+    height: 45vh;
+    width: 100%;
+    padding-top: 20px;
+    margin-left: 7px;
+  }
+  .transterFormContainer {
+    width: 100%;
+  }
   .inputContainer {
     display: flex;
     justify-content: space-between;
@@ -605,7 +617,7 @@ a {
 }
 .inputField {
     height: 100%;
-    width: 70%;
+    width: 65%;
     text-align: center;
     border: none;
     background-color:#aca3be24 ;
@@ -617,7 +629,6 @@ a {
   }
   /* .......BLUE CONTAINER END..... */
 }
-
 
 
 

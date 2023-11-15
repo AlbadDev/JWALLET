@@ -460,11 +460,12 @@ a {
 @media (min-width: 340px) and (max-width: 459px) {
   .bodyContainer {
       height: 80vh;
-      /* border: 2px solid red; */
+      width: 96.5%;
   }
   .head {
-    width: 90%;
+    width: 88.5%;
     height: 150px;
+    margin-left: 2px;
   }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
@@ -487,6 +488,7 @@ a {
     height: 45vh;
       margin-top: 15px;
       padding-right: 10px;
+
   }
   .footer {
       height: 50px;
