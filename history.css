@@ -374,7 +374,7 @@ a {
     }
     
     ::-webkit-scrollbar-thumb {
-      background-color: #707ab70b; /* Change the thumb color as desired */
+      background-color: #2944f5c3; /* Change the thumb color as desired */
       border-radius: 6px; /* Optional: Add rounded corners to the thumb */
     }
 
@@ -421,10 +421,12 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6f7ac3c3; /* Change the thumb color as desired */
+  background-color: #2944f5c3; /* Change the thumb color as desired */
   border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 }
-
+    .lastBill {
+      width: 100%;
+    }
     .billInfo {
         padding: 5px 0px;
     }
@@ -433,6 +435,10 @@ a {
     }
     .bodyBill {
         padding-bottom: 20px;
+    }
+    .receiverName {
+      font-size: 12px;
+      font-weight: 500;
     }
     .moneyDetail {
         margin-right: 20px;
@@ -470,7 +476,11 @@ a {
     }
     .lastBill {
         overflow: auto;
-        padding-right: 20px;
+        /* padding-right: 20px; */
+        width: 100%;
+    }
+    .moneyDetail {
+      align-items: center;
     }
     .bodyBill {
         padding-bottom: 10px;
@@ -486,7 +496,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #7884d2c3; /* Change the thumb color as desired */
+  background-color: #2944f5c3; /* Change the thumb color as desired */
   border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 }
     .footer {
@@ -501,6 +511,7 @@ a {
   .bodyContainer {
       height: 80vh;
   }
+
   /* .......BLUE CONTAINER START..... */
   /* .solodNumber {
       color:#f99f1b;
@@ -522,7 +533,7 @@ a {
   }
   .bodyPage {
       height: 32vh;
-      width: 95%;
+     
       margin-top: 15px;
       /* padding-right: 10px; */
       padding-bottom: 50px;
@@ -531,11 +542,18 @@ a {
   .lastBill {
     overflow:auto;
     padding: 0px;
+    width: 100%;
     
+}
+.moneyDetail {
+  align-items: center;
+ 
+
 }
   .footer {
       height: 50px;
       margin-top: 10px;
+      
   }
   /* .......BLUE CONTAINER END..... */
 }
@@ -588,6 +606,32 @@ a {
   .lastBill {
     width: 400px;
     padding-right: 20px;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .iconContainer {
+    width: 50px;
+    height: 50px;
+  }
+  .moneyDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+     /* For WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px; /* Adjust the width as needed */
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: #eee4e413; /* Change the background color as desired */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: #2944f5c3; /* Change the thumb color as desired */
+  border-radius: 6px; /* Optional: Add rounded corners to the thumb */
   }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
@@ -610,6 +654,8 @@ a {
       height: 50vh;
       margin-top: 15px;
       padding-right: 10px;
+      padding-bottom: 20px;
+     
   }
   .footer {
       height: 50px;

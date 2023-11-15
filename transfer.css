@@ -665,7 +665,7 @@ a {
   }
   .bodyPage {
       height: 40vh;
-      width: 95%;
+      width: 100%;
       margin-top: 15px;
       /* padding-right: 10px; */
       /* padding: 20px 0px; */
@@ -673,14 +673,19 @@ a {
       
       overflow: hidden;
   }
-  /* .transfertContainer {
-    padding-top: 100px;
-  } */
+  .transfertContainer {
+    padding: 0px 10px;
+    width: 100%;
+  }
   .transterFormContainer {
     padding-top: 10px;
     padding-bottom: 80px;
     overflow: auto;  
   }
+  .transterFormContainer {
+    padding: 20px  10px;
+    padding-bottom: 50px;
+    }
 /* .btnContainer {
   margin-bottom: 50px;
   border: 2px solid red;
@@ -804,11 +809,9 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
   justify-content: center;
   align-items: center;
   height: 50vh;
-  
-  width: 500px;
+  width: 100%;
+  /* width: 500px; */
   overflow: scroll;
-  
-  /* padding-top: 70px; */
   
 }
 .transterFormContainer {

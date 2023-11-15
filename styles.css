@@ -528,6 +528,9 @@ body {
       margin: 20px auto;
       width: 700px;
   }
+  .bodyPage {
+    width: 100%;
+  }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
       color:#f99f1b;
