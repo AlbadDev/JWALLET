@@ -1,6 +1,6 @@
 body {
-  scrollbar-color: #2944f5c3 #2944f5c3;
-  scrollbar-width: 12px; 
+  scrollbar-color: #2944f5c3 #2944f501;
+  /* scrollbar-width: 12px;  */
     background-color: #f2f3f5;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -817,14 +817,14 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 }
 .transterFormContainer {
   margin-top: 130px;
- 
+  padding-bottom: 20px;
    /* border: 2px solid red; */
    width: 90%;
 }
    /* For WebKit (Safari, Chrome, etc.) */
 ::-webkit-scrollbar {
 height: 5px;
-width: 5px; /* Adjust the width as needed */
+ width: 5px; /*Adjust the width as needed */
 }
 
 ::-webkit-scrollbar-track {
