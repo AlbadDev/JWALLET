@@ -550,7 +550,82 @@ a {
     }
 }
 
-@media (min-width: 322px) and (max-width: 710px) {
+@media (min-width: 340px) and (max-width: 459px) {
+  .bodyContainer {
+      height: 80vh;
+      /* border: 2px solid red; */
+  }
+  .head {
+    width: 90%;
+    height: 150px;
+  }
+  /* .......BLUE CONTAINER START..... */
+  .solodNumber {
+      color:#f99f1b;
+      font-weight: 600;
+      font-size: 19px;
+      
+  }
+  .soldeTitle {
+      margin-top: -5px;
+  }
+  .aLinkHead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 20px;
+      width: 110px;
+  }
+  .bodyPage {
+      height: 50vh;
+      margin-top: 15px;
+      padding-right: 10px;
+  }
+
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+.labelContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #aca3be24; 
+    height: 100%;
+   padding-left: 4px;
+    width: 40%;
+}
+.labelText {
+    font-size: 13px;
+}
+.inputField {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    border: none;
+    background-color:#aca3be24 ;
+}
+  .footer {
+      height: 50px;
+      margin-top: 10px;
+     
+  }
+  /* .......BLUE CONTAINER END..... */
+}
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 710px) {
     .bodyContainer {
         height: 77vh;
     }

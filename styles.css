@@ -412,9 +412,57 @@ body {
     /* .......BLUE CONTAINER END..... */
 }
 
+@media (min-width: 340px) and (max-width: 459px) {
+  .bodyContainer {
+      height: 80vh;
+      /* border: 2px solid red; */
+  }
+  .head {
+    width: 90%;
+    height: 150px;
+  }
+  /* .......BLUE CONTAINER START..... */
+  .solodNumber {
+      color:#f99f1b;
+      font-weight: 600;
+      font-size: 19px;
+      
+  }
+  .soldeTitle {
+      margin-top: -5px;
+  }
+  .aLinkHead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 20px;
+      width: 110px;
+  }
+  .bodyPage {
+      height: 50vh;
+      margin-top: 15px;
+      padding-right: 10px;
+  }
+  .footer {
+      height: 50px;
+      margin-top: 10px;
+     
+  }
+  /* .......BLUE CONTAINER END..... */
+}
+
+
+
+
+
 @media (min-width: 360px) and (max-width: 425px) {
     .bodyContainer {
         height: 80vh;
+        /* border: 2px solid red; */
+    }
+    .head {
+      width: 90%;
+      height: 150px;
     }
     /* .......BLUE CONTAINER START..... */
     .solodNumber {
