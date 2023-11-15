@@ -627,7 +627,6 @@ a {
   .footer {
       height: 50px;
       margin-top: 10px;
-     border: 2px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }
@@ -656,7 +655,7 @@ a {
         justify-content: center;
         align-items: center;
         padding: 6px 20px;
-        width: 120px;
+        width: 100px;
     }
     .bodyPage {
      
@@ -726,6 +725,7 @@ a {
     .footer {
         height: 50px;
         margin-top: 10px;
+        border: 2px solid red;
     }
     /* .......BLUE CONTAINER END..... */
 }
