@@ -722,6 +722,13 @@ a {
    /* border: 2px solid red; */
    width: 90%;
 }
+.aLinkHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+  width: 120px;
+}
    /* For WebKit (Safari, Chrome, etc.) */
 ::-webkit-scrollbar {
 height: 5px;
@@ -787,15 +794,33 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
 
 @media (min-width: 1024px) and (max-width: 5023px) {
   .bodyContainer {
-      height: 98vh;
+      height: 90vh;
       margin: 20px auto;
       width: 700px;
       
   }
   .soldContainer {
-    margin-top: 10px;
-    margin-bottom: -20px;
+    margin-top: -15px;
   }
+  .solodNumber {
+    color:#f99f1b;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.soldeTitle {
+    margin-top: -1px;
+    
+}
+.aLinkHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    width: 120px;
+    margin-bottom: -24px;
+}
+
   .secondNavContainer {
     margin-bottom: 20px;
   }
@@ -872,6 +897,7 @@ border-radius: 6px; /* Optional: Add rounded corners to the thumb */
       height: 50vh;
       margin-top: 15px;
       padding-right: 10px;
+      width: 91.5%;
   }
   .footer {
       height: 50px;

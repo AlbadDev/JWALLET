@@ -72,13 +72,14 @@ a {
 }
 
 /* ...........BLUE COMPONENT STYLE START HERE..... */
-.head {
+
+  .head {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:  #3632bf;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -611,7 +612,12 @@ a {
       height: 90vh;
       margin: 20px auto;
       width: 700px;
+      
   }
+  /* .soldContainer {
+    margin-top: -15px;
+    margin-bottom: 10px;
+  } */
   .lastBill {
     width: 400px;
     padding-right: 20px;
@@ -643,27 +649,33 @@ a {
   border-radius: 6px; /* Optional: Add rounded corners to the thumb */
   }
   /* .......BLUE CONTAINER START..... */
+  .head {
+    margin-top: 5px;
+  }
+  .soldContainer {
+    margin-top: -15px;
+  }
   .solodNumber {
-      color:#f99f1b;
-      font-weight: 600;
-      font-size: 19px;
-      
-  }
-  .soldeTitle {
-      margin-top: -5px;
-  }
-  .aLinkHead {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 6px 20px;
-      width: 120px;
-  }
+    color:#f99f1b;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.soldeTitle {
+    margin-top: -5px;
+    
+}
+.aLinkHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    width: 120px;
+}
   .bodyPage {
       height: 50vh;
       margin-top: 15px;
       padding-right: 20px;
-      padding-bottom: 20px;
      
   }
   .footer {

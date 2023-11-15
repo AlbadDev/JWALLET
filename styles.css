@@ -528,16 +528,22 @@ body {
       margin: 20px auto;
       width: 700px;
   }
-  
+  .head {
+    margin-top: 4px;
+  }
   /* .......BLUE CONTAINER START..... */
+  .soldContainer {
+    margin-top: -15px;
+  }
   .solodNumber {
       color:#f99f1b;
       font-weight: 600;
-      font-size: 19px;
+      font-size: 30px;
       
   }
   .soldeTitle {
       margin-top: -5px;
+      
   }
   .aLinkHead {
       display: flex;
