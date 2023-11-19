@@ -257,8 +257,8 @@ a {
     height: 5vh;
     margin-bottom: 10px;
     background-color: #3632bf;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     color: #f2f3f5;
     /* border-bottom: 1px solid rgba(128, 128, 128, 0.177); */
     /* border: 1px solid blue; */
@@ -387,7 +387,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #1f58df;
+    border: 2px solid #3632bf;
     border-radius: 50%;
     padding: 5px 15px;
     background-color: transparent !important;
