@@ -63,7 +63,7 @@ a {
     height: 84vh;
     width: 99%;
     /* background-color: #fff; */
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     margin-top: 60px;
     overflow: hidden;
     z-index: 0;
@@ -79,7 +79,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color:  #3632bf;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -87,7 +87,9 @@ a {
     height: 20vh;
     overflow: hidden;
     z-index: 1;
-    padding: 10px;
+    padding: 6px 10px;
+    border: 2px solid red;
+    margin-top: -50px;
 }
 .soldContainer {
     display: flex;
@@ -507,7 +509,7 @@ a {
     width: 88.5%;
     height: 150px;
     margin-left: 2px;
-    margin-top: -5px;
+    /* margin-top: -5px; */
   }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
@@ -595,7 +597,7 @@ a {
     .head {
       width: 89%;
       height: 163px;
-      margin-top: -3px;
+      /* margin-top: -3px; */
     }
     /* .bodyPage {
       width: 95%;
@@ -614,7 +616,7 @@ a {
         justify-content: center;
         align-items: center;
         padding: 6px 20px;
-        width: 120px;
+        width: 100px;
     }
     /* .bodyPage {
         margin-top: 5px;
@@ -674,9 +676,9 @@ a {
       padding: 6px 20px;
       width: 120px;
   } */
-  .head {
+  /* .head {
     margin-top: -50px;
-  }
+  } */
   .bodyPage {
       height: 32vh;
      
@@ -785,9 +787,9 @@ a {
   border-radius: 6px; /* Optional: Add rounded corners to the thumb */
   }
   /* .......BLUE CONTAINER START..... */
-  .head {
+  /* .head {
     margin-top: 5px;
-  }
+  } */
   .soldContainer {
     margin-top: -15px;
   }

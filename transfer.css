@@ -74,7 +74,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color:  #3632bf;
-    /* border: 1px solid blue; */
+    /* border: 2px solid rgb(255, 0, 34); */
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -82,7 +82,7 @@ a {
     height: 20vh;
     overflow: hidden;
     z-index: 1;
-    padding: 10px;
+    padding: 8px 10px;
 }
 .soldContainer {
     display: flex;
@@ -100,6 +100,7 @@ a {
     height: 5vh;
     color: rgb(161, 179, 210);
     /* border: 1px solid rgb(156, 156, 190); */
+    /* margin-bottom: -1.5px; */
   }
   .fa-eye {
     color: rgb(161, 179, 210);
@@ -170,6 +171,7 @@ a {
     /* width: 100%; */
     border-radius: 20px;
     border: none;
+    margin-top: 2px;
   }
   .footerLabel {
     font-size: 12px;
@@ -642,6 +644,9 @@ a {
         height: 77vh;
     }
     /* .......BLUE CONTAINER START..... */
+    .head {
+      width: 89%;
+    }
     .solodNumber {
         color:#f99f1b;
         font-weight: 600;
@@ -658,7 +663,7 @@ a {
         width: 100px;
     }
     .bodyPage {
-     
+        width: 92%;
         margin-top: 15px;
     }
      /* ................TRANSFER START........ */
