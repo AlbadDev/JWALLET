@@ -216,6 +216,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 98%;
+  height: 55vh;
   /* border: 1px solid rgb(255, 0, 47); */
 } 
 .headerbill {
@@ -223,8 +224,9 @@ a {
     /* justify-content: space-between; */
     /* align-items: center; */
     width: 100%;
+    height: 5vh;
     margin-bottom: 10px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.177);
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.177); */
     /* border: 1px solid blue; */
 }
 .textHeadBill {
@@ -251,7 +253,8 @@ a {
   .bodyBill {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid rgb(243, 243, 7); */
+    height: 40vh;
+    margin-top: -10px;
   }
   .billInfo {
     display: flex;
@@ -340,7 +343,8 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
+    height: 20vh;
+    /* border: 1px solid rgba(128, 128, 128, 0.147); */
   }
   .scanBtn {
     display: flex;
