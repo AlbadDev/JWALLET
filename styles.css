@@ -207,9 +207,8 @@ a {
     border: 1px solid blue;
     background-color: #fff;
     width: 90%;
-    height: 55vh;
-    margin-top: 20px;
-    padding-bottom: 5px;
+    height: 50vh;
+    margin-top: 10px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -442,12 +441,12 @@ a {
       padding: 6px 20px;
       width: 110px;
   }
-  .bodyPage {
-      /* height: 45vh;
+  /*.bodyPage {
+       height: 45vh;
       margin-top: 15px; */
-      padding-right: 10px;
-      /* border: 2px solid red; */
-  }
+      /* padding-right: 10px; */
+      /* border: 2px solid red; 
+  }*/
   .footer {
       /* height: 50px; */
       margin-top: 10px;
@@ -486,11 +485,11 @@ a {
         padding: 6px 20px;
         width: 100px;
     }
-    .bodyPage {
-        /* height: 50vh;
-        margin-top: 15px; */
+   /* .bodyPage {
+         height: 50vh;
+        margin-top: 15px; 
         padding-right: 10px;
-    }
+    }*/
     .footer {
         /* height: 50px; */
         margin-top: 10px;
@@ -522,13 +521,13 @@ a {
   .head {
     margin-top: -50px;
   }
-  .bodyPage {
-      /* height: 40vh;
+  /* .bodyPage {
+      height: 40vh;
       margin-top: 15px; */
       padding-right: 10px;
-      /* padding-bottom: 50px; */
+      /* padding-bottom: 50px; 
       overflow: auto;
-  }
+  }*/
   .footer {
       /* height: 50px; */
       margin-top: 10px;
@@ -563,15 +562,15 @@ a {
       padding: 6px 20px;
       width: 100px;
   }
-  .bodyPage {
-      /* height: 43.5vh;
-      margin-top: 15px; */
+  /*.bodyPage {
+       height: 43.5vh;
+      margin-top: 15px; 
       padding-right: 10px;
       padding-bottom: 10px;
       overflow: auto;
-      /* border: 2px solid red; */
+      /* border: 2px solid red; 
       
-  }
+  }*/
   .transfertContainer {
     height: 45vh;
     width: 100%;
@@ -648,11 +647,11 @@ a {
       padding: 6px 20px;
       width: 120px;
   }
-  .bodyPage {
-      /* height: 50vh;
-      margin-top: 15px; */
+  /*.bodyPage {
+       height: 50vh;
+      margin-top: 15px; 
       padding-right: 10px;
-  }
+  }*/
   .footer {
       /* height: 50px; */
       margin-top: 10px;
@@ -694,12 +693,12 @@ a {
       padding: 6px 20px;
       width: 120px;
   }
-  .bodyPage {
-      /* height: 50vh;
-      margin-top: 15px; */
+  /* .bodyPage {
+      height: 50vh;
+      margin-top: 15px; 
       padding-right: 10px;
       width: 91.5%;
-  }
+  }*/
   .lastBill {
     margin-top: 20px;
     width: 80%;
