@@ -275,11 +275,12 @@ a {
     width: 100px;
     font-size: 12px;
     color: #f99f1b;
-    text-decoration: underline;
+    text-decoration: none;
     letter-spacing: 1px;
     cursor: pointer;
-    
+    gap: 2px;
   }
+
   .bodyBill {
     display: flex;
     flex-direction: column;
