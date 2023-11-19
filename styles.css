@@ -340,7 +340,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* margin-top: 10px; */
+    margin-top: 20px;
   }
   .scanBtn {
     display: flex;
