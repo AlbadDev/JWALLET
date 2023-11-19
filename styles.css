@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
+  width: 8%;
   height: 30px;
   border:1px solid #0a0a0a;
   border-radius: 20px;
@@ -39,11 +39,20 @@
   margin-left: 15px;
   
 }
+.iopayIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  /* border: 1px solid red; */
+}
 .navLink {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    width: 50%;
+    height: 50px;
+    /* border: 1px solid red; */
 }
 .itemContainer {
     display: flex;
@@ -56,6 +65,7 @@
 
 .navList{
     list-style: none;
+   
 }
 a {
  text-decoration: none;
@@ -101,8 +111,13 @@ a {
     align-items: center;
     gap: 20px;
     height: 10vh;
+    background-color: #f1f3f5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     /* border: 1px solid rgb(156, 156, 190); */
-    margin-bottom: -5px;
+    padding: 0px 10px;
+    margin-top: -8px;
+    margin-bottom: 5px;
 }
 .soldeTitle {
     display: flex;
@@ -344,6 +359,7 @@ a {
     align-items: center;
     width: 100%;
     height: 20vh;
+    background-color: transparent !important;
     /* border: 1px solid rgba(128, 128, 128, 0.147); */
   }
   .scanBtn {
@@ -354,9 +370,13 @@ a {
     border: 2px solid #1f58df;
     border-radius: 50%;
     padding: 5px 15px;
-    background-color: transparent;
+    background-color: transparent !important;
     cursor: pointer;
   }
+  button {
+    border: 5px solid gray;
+  }
+
 /* style footer end here */
 
 /* style footer end here */
