@@ -72,7 +72,7 @@ a {
     align-items: center;
     margin-top: 2.5px;
     width: 97%; 
-    height: 85vh;
+    height: 80vh;
     /* border: 1px solid blue; */
     /* z-index: 1; */
 }
@@ -204,10 +204,10 @@ a {
     flex-direction: column;
      /*justify-content: center;*/
     align-items: center; 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     background-color: #fff;
     width: 90%;
-    height: 55vh;
+    height: 58vh;
     margin-top: 20px;
     padding-bottom: 5px;
     border-radius: 5px;
