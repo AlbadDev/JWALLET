@@ -68,7 +68,7 @@ a {
 .homeArticle {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: space-around;
     align-items: center;
     margin-top: 2.5px;
     width: 97%; 
@@ -202,7 +202,7 @@ a {
 .bodyPage {
     display: flex;
     flex-direction: column;
-     /*justify-content: center;*/
+    justify-content: flex-start;
     align-items: center; 
     border: 1px solid blue;
     background-color: #fff;
