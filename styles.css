@@ -33,11 +33,14 @@
   align-items: center;
   width: 8%;
   height: 30px;
-  border:1px solid #0a0a0a;
-  border-radius: 20px;
   color: aliceblue;
   margin-left: 15px;
   
+}
+.userIcon {
+  border:1px solid #0a0a0a;
+  border-radius: 20px;
+  padding: 5px;
 }
 .iopayIcon {
   display: flex;
@@ -106,27 +109,39 @@ a {
     /* margin-top: -17px; */
 }
 .soldContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #f1f3f5;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -13px;
+}
+.soldeTitle {
+  color: #1f58df;
+  /* border: 1px solid red; */
+  margin-top: -3px;
+}
+.mySold {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 10vh;
-    background-color: #f1f3f5;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    height: 50px;
     /* border: 1px solid rgb(156, 156, 190); */
     padding: 0px 10px;
-    margin-top: -8px;
+    margin-top: -25px;
     margin-bottom: 5px;
 }
-.soldeTitle {
+/* .soldeTitle {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
     color: rgb(161, 179, 210);
-    /* border: 1px solid rgb(156, 156, 190); */
-  }
+  } */
   .fa-eye {
     color: rgb(161, 179, 210);
   }
@@ -442,10 +457,10 @@ a {
         font-weight: 600;
         font-size: 20px;
     }
-    .soldeTitle {
+    /* .soldeTitle {
         margin-top: -5px;
         
-    }
+    } */
     .aLinkHead {
         display: flex;
         justify-content: center;
@@ -487,9 +502,9 @@ a {
       font-size: 19px;
       
   }
-  .soldeTitle {
+  /* .soldeTitle {
       margin-top: -5px;
-  }
+  } */
   .aLinkHead {
       display: flex;
       justify-content: center;
@@ -531,9 +546,9 @@ a {
         font-size: 19px;
         
     }
-    .soldeTitle {
+    /* .soldeTitle {
         margin-top: -5px;
-    }
+    } */
     .aLinkHead {
         display: flex;
         justify-content: center;
@@ -608,9 +623,9 @@ a {
       font-weight: 600;
       font-size: 19px;
   }
-  .soldeTitle {
+  /* .soldeTitle {
       margin-top: -5px;
-  }
+  } */
   .aLinkHead {
       display: flex;
       justify-content: center;
@@ -693,9 +708,9 @@ a {
       font-size: 19px;
       
   }
-  .soldeTitle {
+  /* .soldeTitle {
       margin-top: -5px;
-  }
+  } */
   .aLinkHead {
       display: flex;
       justify-content: center;
@@ -738,10 +753,10 @@ a {
       font-size: 30px;
       
   }
-  .soldeTitle {
+  /* .soldeTitle {
       margin-top: -5px;
       
-  }
+  } */
   .aLinkHead {
       display: flex;
       justify-content: center;
