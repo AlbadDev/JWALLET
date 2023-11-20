@@ -36,6 +36,12 @@
   margin-left: 15px;
   
 }
+.linkIcon {
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: #1f58df;
+  color: #f2f3f5;
+}
 .userIcon {
   border:1px solid #0a0a0a;
   border-radius: 20px;
@@ -164,6 +170,15 @@ a {
   }
   .fa-credit-card {
     color: rgb(161, 179, 210);
+  }
+  .fa-exchange {
+    color: #51cc4d;
+  }
+  .fa-money {
+    color: #2a85e5;
+  }
+  .fa-history {
+    color:rgb(30, 48, 80) ;
   }
 .myAccount {
     color: #1f58df;
@@ -698,10 +713,21 @@ a {
 
 /* ...............STYLE FOR TABLET SCREEN........... */
 
-@media (min-width: 712px) and (max-width: 1023px) {
-  /* .bodyContainer {
-      height: 90vh;
-  } */
+@media (min-width: 712px) and (max-width: 1024px) {
+  .billInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .first {
+    width: 30%;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .moneyDetail {
+    width:  30%;
+    /* border: 2px solid red; */
+  }
   /* .......BLUE CONTAINER START..... */
   .solodNumber {
       color:#f99f1b;
