@@ -287,7 +287,8 @@ a {
   flex-direction: column;
   width: 95%;
   overflow: auto;
-  /* border: 2px solid red; */
+  padding-top: 65px;
+  border: 2px solid red;
  }
  .transterFormContainer {
   display: flex;
@@ -299,6 +300,7 @@ a {
   padding-bottom: 5px;
   margin-top: 40px;
   gap: 5px;
+  /* border: 2px solid red; */
  }
  .inputContainer {
     display: flex;
