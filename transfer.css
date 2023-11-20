@@ -296,7 +296,7 @@ a {
   width: 95%;
   padding-top: 10px;
   padding-bottom: 5px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   gap: 5px;
   /* border: 2px solid red; */
  }
@@ -545,7 +545,7 @@ input:checked + .slider:before {
 /* ............................................ */
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
 
-@media (min-width: 0px) and (max-width: 500px) and (max-height: 580px) {
+@media (min-width: 0px) and (max-width: 500px) and (max-height: 380px) {
     .transfertContainer {
       border: 2px solid red;
       padding-top: 100px;
@@ -554,6 +554,18 @@ input:checked + .slider:before {
    .footer {
     border: 2px solid red;
    }
+}
+
+
+@media (min-width: 0px) and (max-width: 320px) and (max-height: 480px) {
+  .transfertContainer {
+    border: 2px solid red;
+    padding-top: 100px;
+  }
+
+ .footer {
+  border: 2px solid red;
+ }
 }
 
 @media (min-width: 340px) and (max-width: 359px) {
