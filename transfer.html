@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,50 +9,65 @@
     <link rel="stylesheet" href="./transfer.css" />
     <link href="https://fonts.cdnfonts.com/css/gill-sans-std" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
+
 </head>
-<nav class="navbar">
-    <div class="profileImg">
-        <a href="/login.html" class="linkIcon">
-            <i class="fa fa-user-o" aria-hidden="true" style="color: aliceblue;"></i>
-        </a>
-    </div>
-    <div class="navLink">
-        <ul class="itemContainer">
-            <li class="navList">
-                <i class="fa fa-search" aria-hidden="true" style="font-size:20px"></i>
-            </li>
-            <li class="navList">
-                <a href="/scanToPay.html" style="color:inherit">
-                    <i class="fa fa-qrcode" aria-hidden="true" style="font-size:20px"></i>
-                </a>
-            </li>
-            <li class="navList">
-                <i class="fa fa-bell" aria-hidden="true" style="font-size:20px"></i>
-            </li>
-        </ul>
-    </div>
-</nav>
+
 
 <body class="body">
-    <div class="bodyContainer">
+    <div class="navbar">
+        <div class="profileImg">
+            <a href="/login.html" class="linkIcon">
+                <img class='userIcon' src="./images/userr.png" alt="recieveIcon" width="20px" height="20px">
+                <!-- <i class="fa fa-user-o" aria-hidden="true" style="color: aliceblue;"></i> -->
+            </a>
+        </div>
+        <!-- <div class="iopayIcon">
+            <img src="./images/iopayicon.png" alt="recieveIcon" width="45px" height="40px">
+        </div> -->
+        <div class="navLink">
+            <ul class="itemContainer">
+                <li class="navList">
+                    <img src="./images/search.png" alt="recieveIcon" width="20px" height="20px">
+                </li>
+                <li class="navList">
+                    <a href="/scanToPay.html" style="color:inherit">
+                        <img src="./images/qr-code.png" alt="recieveIcon" width="20px" height="20px">
+                    </a>
+                </li>
+                <li class="navList">
+                    <img src="./images/bell.png" alt="recieveIcon" width="20px" height="20px">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="homeArticle">
+
+
         <div class="head">
             <div class="soldContainer">
-                <i class="fa fa-credit-card" aria-hidden="true" style="font-size:28px"></i>
-                <p class="solodNumber">GMD 1,563 000</p>
-                <i class="fa fa-eye" aria-hidden="true"></i>
+            <h5 class="soldeTitle">Account Balance</h5>
+               <div class="mySold">
+                    <img src="./images/iopayicon.png" alt="recieveIcon" width="45px" height="40px">
+                    <!-- <img src="./images/dollar.png" alt="recieveIcon" width="40px" height="30px"> -->
+                    <p class="solodNumber">GMD 1,563 000</p>
+                    <img src="./images/eye.png" alt="recieveIcon" width="30px" height="20px">
+               </div>
             </div>
 
-            <h5 class="soldeTitle">Account Balance</h5>
+           
 
             <div class="secondNavContainer">
                 <div class="item">
                     <a href="/transfer.html" class="aLinkHead">
-                        <i class="fa fa-address-card" aria-hidden="true" style="font-size:28px"></i>
+                        <img src="./images/transfer-money.png" alt="recieveIcon" width="40px" height="30px">
                         <span class="footerLabel">Transfert</span>
                     </a>
                     <a href="/history.html" class="aLinkHead">
 
-                        <i class="fa fa-history" aria-hidden="true" style="font-size:28px"></i>
+                        <img src="./images/payment.png" alt="recieveIcon" width="40px" height="30px">
                         <span class="footerLabel">History</span>
                     </a>
                 </div>
@@ -59,96 +75,100 @@
             </div>
         </div>
 
+
         <div class="bodyPage">
-            <div class="transfertContainer">
-                <form action="submit" class="transterFormContainer">
-                    <div class="inputContainer" >
-                        <div class="labelContainer">
-                            <span  id="" class="labelText"><i class="fa fa-user-circle" id="'icons" aria-hidden="true"
-                                    style="margin-right: 5px;"></i></i>Beneficiary</span>
+                <div class="headerbill">
+                    <p class="textHeadBill">Send Money</p>
+                </div>
+                <div class="transfertContainer">
+                    <form action="submit" class="transterFormContainer">
+                        <div class="inputContainer" >
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-user-circle" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px;"></i></i>To</span>
+                            </div>
+                            <input type="number" placeholder="Mobile Number" class="inputField" id="inputFirst">
                         </div>
-                        <input type="number" placeholder="Mobile Number" class="inputField" id="inputFirst">
-                    </div>
-                    <div class="inputContainer">
-                        <div class="labelContainer">
-                            <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
-                                    style="margin-right: 5px"></i>Name</span>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Name</span>
+                            </div>
+                            <input type="text" disabled placeholder="No match" class="inputField" id="inputSecond">
                         </div>
-                        <input type="text" disabled placeholder="No match" class="inputField" id="inputSecond">
-                    </div>
-
-                    <div class="inputContainer">
-                        <div class="labelContainer">
-                            <span  id="" class="labelText"><i class="fa fa-money iconMoney" id="'icons" aria-hidden="true"
-                                    ></i> Amount </span>
+    
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-money iconMoney" id="'icons" aria-hidden="true"
+                                        ></i> Amount </span>
+                            </div>
+                            <input type="number" placeholder="000000" class="inputField" >
                         </div>
-                        <input type="number" placeholder="000000" class="inputField" >
-                    </div>
-
-                    <div class="inputContainer">
-                        <span class="fraiText">Shipping costs 0.8%</span>
-                        <span class="fraiMontant">D10</span>
-                    </div>
-
-                    <div class="inputContainer">
-                        <div class="labelContainer">
-                            <span class="labelText" id="">
-                                <i class="fa fa-money iconMoney" aria-hidden="true" id="'icons"></i>
-                                Total 
-                            </span>
+    
+                        <div class="inputContainer">
+                            <span class="fraiText">Shipping costs 0.8%</span>
+                            <span class="fraiMontant">D10</span>
                         </div>
-                        <input type="number" disabled placeholder="000000" class="inputField"  >
-                    </div>
-
-                    <!-- <div class="sendCodeContainer">
-                        <p class="sendCode">Transfer with code</p>
-                        <label class="switch">
-                            <input type="checkbox" checked>
-                            <span class="slider round"></span>
-                        </label>
-
-                    </div> -->
-                    <div class="btnContainer">
-                        <button type="button" class="validBtn">Send</button>
-                    </div> 
-                </form>
-            </div>
+    
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span class="labelText" id="">
+                                    <i class="fa fa-money iconMoney" aria-hidden="true" id="'icons"></i>
+                                    Total 
+                                </span>
+                            </div>
+                            <input type="number" disabled placeholder="000000" class="inputField"  >
+                        </div>
+    
+                        <!-- <div class="sendCodeContainer">
+                            <p class="sendCode">Transfer with code</p>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+    
+                        </div> -->
+                        <div class="btnContainer">
+                            <button type="button" class="validBtn">Send</button>
+                        </div> 
+                    </form>
+                </div>
         </div>
 
 
     </div>
-    
+
+    <footer class="footer">
+        <div class="footerLink">
+            <ul class="footerItem">
+
+                <li class="footerList" style="margin-left: -30px;">
+                    <a href="/" class="footerList">
+                        <img src="./images/home.png" alt="recieveIcon" width="30px" height="20px">
+                        <span class="footerLabel">Home</span>
+                    </a>
+                </li>
+
+                <li class="footerList">
+                    <a href="/scanToPay.html" class="footerList">
+                        <img src="./images/qr-code.png" alt="recieveIcon" width="30px" height="20px">
+                        <span class="footerLabel">Pay</span>
+                    </a>
+                </li>
+                <li class="footerList">
+                    <a href="/transfer.html" class="footerList">
+                        <img src="./images/transfer-money.png" alt="recieveIcon" width="30px" height="20px">
+                        <span class="footerLabel">Transfer</span>
+                    </a>
+                </li>
+                <li class="footerList" style="margin-right: 10px;">
+                    <img src="./images/shar.png" alt="recieveIcon" width="30px" height="20px">
+                    <span class="footerLabel">Share</span>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
-<footer class="footer">
-    <div class="footerLink">
-        <ul class="footerItem">
 
-            <li class="footerList" style="margin-left: -30px;">
-                <a href="/" class="footerList">
-                    <i class="fa fa-home" aria-hidden="true" style="font-size:28px"></i>
-                    <span class="footerLabel">Home</span>
-                </a>
-            </li>
-
-            <li class="footerList">
-                <a href="/scanToPay.html" class="footerList">
-                    <i class="fa fa-qrcode" aria-hidden="true" style="font-size:28px"></i>
-                    <span class="footerLabel">Pay</span>
-                </a>
-            </li>
-            <li class="footerList">
-                <a href="/transfer.html" class="footerList">
-
-                    <i class="fa fa-money iconMoney" aria-hidden="true" style="font-size:28px"></i>
-                    <span class="footerLabel">Transfer</span>
-                </a>
-            </li>
-            <li class="footerList" style="margin-right: 10px;">
-                <i class="fa fa-share-alt" aria-hidden="true" style="font-size:28px"></i>
-                <span class="footerLabel">Share</span>
-            </li>
-        </ul>
-    </div>
-</footer>
 </html>
