@@ -237,7 +237,7 @@ a {
     align-items: center; 
     /* border: 1px solid blue; */
     background-color: #fff;
-    width: 90%;
+    width: 95%;
     height: 55vh;
     margin-top: 10px;
     border-radius: 5px;
@@ -367,7 +367,8 @@ a {
     border-radius: 20px;
     width: 20%;
     height: 40px;
-    gap: 2px;
+    margin-left: -5px;
+    /* gap: 2px; */
     
   }
   .botton {
