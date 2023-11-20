@@ -547,10 +547,20 @@ a {
 
 
 @media (min-width: 360px) and (max-width: 425px) {
-    /* .bodyContainer {
-        height: 80vh;
-        /* border: 2px solid red; */
-    } */
+  .billInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .first {
+    width: 40%;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .moneyDetail {
+    width:  40%;
+    /* border: 2px solid red; */
+  }
     .head {
       width: 90%;
       height: 150px;
@@ -611,11 +621,11 @@ a {
   /* .bodyPage {
       height: 40vh;
       margin-top: 15px; */
-      padding-right: 10px;
       /* padding-bottom: 50px; 
       overflow: auto;
   }*/
   .footer {
+    
       /* height: 50px; */
       margin-top: 10px;
   }
