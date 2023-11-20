@@ -547,25 +547,18 @@ input:checked + .slider:before {
 
 @media (min-width: 320px) and (max-width: 500px) and (max-height: 530px) {
     .transfertContainer {
-      border: 2px solid red;
       padding-top: 140px;
     }
 
-   .footer {
-    border: 2px solid red;
-   }
+
 }
 
 
-@media (min-width: 0px) and (max-width: 320px) and (max-height: 480px) {
+@media (min-width: 0px) and (max-width: 320px) and (max-height: 580px) {
   .transfertContainer {
-    border: 2px solid red;
     padding-top: 100px;
   }
 
- .footer {
-  border: 2px solid red;
- }
 }
 
 @media (min-width: 340px) and (max-width: 359px) {
@@ -615,7 +608,6 @@ input:checked + .slider:before {
 @media (min-width: 360px) and (max-width: 425px) {
     /* .bodyContainer {
         height: 80vh;
-        /* border: 2px solid red; */
     } */
     .head {
       width: 90%;
@@ -649,7 +641,7 @@ input:checked + .slider:before {
        
     }
     /* .......BLUE CONTAINER END..... */
-}
+  }
 
 @media (min-width: 360px) and (max-height: 550px) {
   /* .bodyContainer {
@@ -676,14 +668,15 @@ input:checked + .slider:before {
   }
   /* .bodyPage {
       height: 40vh;
-      margin-top: 15px; */
+      margin-top: 15px; 
       padding-right: 10px;
-      /* padding-bottom: 50px; 
+       padding-bottom: 50px; 
       overflow: auto;
   }*/
   .footer {
       /* height: 50px; */
       margin-top: 10px;
+      border: 2px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }

@@ -492,7 +492,7 @@ a {
     /* .......BLUE CONTAINER END..... */
 }
 
-@media (min-width: 340px) and (max-width: 359px) {
+@media (min-width: 323px) and (max-width: 359px) {
   /* .bodyContainer {
       height: 80vh;
       width: 97%;
@@ -536,10 +536,9 @@ a {
 
 
 
-@media (min-width: 360px) and (max-width: 425px) {
+@media (min-width: 359px) and (max-width: 425px) {
     /* .bodyContainer {
         height: 80vh;
-        /* border: 2px solid red; */
     } */
     .head {
       width: 90%;
@@ -575,39 +574,19 @@ a {
     /* .......BLUE CONTAINER END..... */
 }
 
-@media (min-width: 360px) and (max-height: 550px) {
-  /* .bodyContainer {
-      height: 80vh;
-  } */
-  /* .......BLUE CONTAINER START..... */
-  /* .solodNumber {
-      color:#f99f1b;
-      font-weight: 600;
-      font-size: 19px;
+@media (min-width: 360px) and (max-height: 570px) {
+ 
+  .billInfo {
+    padding: 5px 0px;
   }
-  .soldeTitle {
-      margin-top: -5px;
-  }
-  .aLinkHead {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 6px 20px;
-      width: 120px;
-  } */
   .head {
     margin-top: -50px;
   }
-  /* .bodyPage {
-      height: 40vh;
-      margin-top: 15px; */
-      padding-right: 10px;
-      /* padding-bottom: 50px; 
-      overflow: auto;
-  }*/
+
   .footer {
       /* height: 50px; */
       margin-top: 10px;
+      border: 1px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }
