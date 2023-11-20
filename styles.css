@@ -590,10 +590,27 @@ a {
     z-index: 1;
     padding: 2px 10px;
 }
+.secondNavContainer {
+  margin-top: 20px;
+}
+
  .bodyPage {
   margin-top: -110px;
   margin-bottom: -50px;
  }
+ .headerbill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+ .textHeadBill {
+  width: 60%;
+ }
+ .seePlus {
+  width: 40%;
+ }
+
   .billInfo {
     padding: 5px 0px;
   }
@@ -604,7 +621,6 @@ a {
   .footer {
       /* height: 50px; */
       margin-top: 10px;
-      border: 1px solid red;
   }
   /* .......BLUE CONTAINER END..... */
 }
