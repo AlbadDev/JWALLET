@@ -287,8 +287,6 @@ a {
   flex-direction: column;
   width: 95%;
   overflow: auto;
-  padding-top: 65px;
-  border: 2px solid red;
  }
  .transterFormContainer {
   display: flex;
@@ -547,46 +545,15 @@ input:checked + .slider:before {
 /* ............................................ */
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
 
-@media (min-width: 0px) and (max-width: 320px) {
-    /* .bodyContainer {
-        height: 75vh;
-    } */
-    /* .......BLUE CONTAINER START..... */
-    .secondNavContainer {
-        margin-bottom: 10px;
+@media (min-width: 0px) and (max-width: 320px) and (max-height: 460px) {
+    .transfertContainer {
+      border: 2px solid red;
+      padding-top: 100px;
     }
-    .solodNumber {
-        color:#f99f1b;
-        font-weight: 600;
-        font-size: 20px;
-    }
-    /* .soldeTitle {
-        margin-top: -5px;
-        
-    } */
-    .aLinkHead {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 10px;
-        width: 110px;
-    }
-    .bodyPage {
-        /* height: 55vh; */
-        /* margin-top: 20px; */
-        padding: 0px 10px;
-    }
-    .billInfo {
-        padding: 5px 0px;
-    }
-    .textHeadBill {
-        font-size: 10px;
-    }
-    .moneyDetail {
-        margin-right: 10px;
-    }
-   
-    /* .......BLUE CONTAINER END..... */
+
+   .footer {
+    border: 2px solid red;
+   }
 }
 
 @media (min-width: 340px) and (max-width: 359px) {
